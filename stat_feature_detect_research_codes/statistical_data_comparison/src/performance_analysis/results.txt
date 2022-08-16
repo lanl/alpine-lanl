@@ -1,0 +1,30 @@
+
+32 node
+number of time steps: 84
+total insitu computation time: 48.6213303
+avg insitu time step: 0.7644123107142856
+total insitu time: 64.2106341
+total insitu IO: 15.589303799999998
+total insitu time without particle processing: 30.3926924
+total sim time: 24477.1821959
+total IO time: 40.407102
+
+16 node
+number of time steps: 83
+total insitu computation time: 49.326589600000005
+avg insitu time step: 0.7518507662650603
+total insitu time: 62.40361360000001
+total insitu IO: 13.077024
+total insitu time without particle processing: 31.469165399999998
+total sim time: 35983.078366400005
+total IO time: 53.427262000000006
+
+8 node
+number of time steps: 77
+total insitu computation time: 49.980134099999994
+avg insitu time step: 0.8023978389610389
+total insitu time: 61.78463359999999
+total insitu IO: 11.8044995
+total insitu time without particle processing: 32.6121322
+total sim time: 36011.6998864
+total IO time: 88.74912

@@ -1,0 +1,60 @@
+#include <cpp_headers.h>
+#include <glm_headers.h>
+#include <vtk_headers.h>
+#include <vtkTransformFilter.h>
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */  
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	int dim[3] = {128,128,128};
+
+	string inputFilename1 = "../build/output3.vti";
+	string inputFilename2 = "../build/output4.vti";
+
+	//Read the raw field OR the source data
+    vtkSmartPointer<vtkXMLImageDataReader> reader1 = vtkSmartPointer<vtkXMLImageDataReader>::New();
+    reader1->SetFileName(inputFilename1.c_str());
+    reader1->Update();
+
+    //Read the raw field OR the source data
+    vtkSmartPointer<vtkXMLImageDataReader> reader2 = vtkSmartPointer<vtkXMLImageDataReader>::New();
+    reader2->SetFileName(inputFilename2.c_str());
+    reader2->Update();
+
+    vtkSmartPointer<vtkImageData> imageData = vtkSmartPointer<vtkImageData>::New();
+    imageData->SetDimensions(dim[0],dim[1],dim[2]);
+    imageData->AllocateScalars(VTK_FLOAT, 1);
+
+    for(int p=0; p<dim[2]; p++)
+        for(int q=0; q<dim[1]; q++)
+            for(int r=0; r<dim[0]; r++)
+            {
+            	float* pixel1 = static_cast<float*>(reader1->GetOutput()->GetScalarPointer(r,q,p));
+            	float* pixel2 = static_cast<float*>(reader2->GetOutput()->GetScalarPointer(r,q,p));
+            	float* pixel = static_cast<float*>(imageData->GetScalarPointer(r,q,p)); 
+
+            	if(pixel1[0]>227 & pixel2[0]<227)
+            	{            		
+            		pixel[0] = pixel1[0];
+            	}
+            	else if(pixel2[0]>227 & pixel1[0]<227)
+            	{            		
+            		pixel[0] = pixel2[0];
+            	}
+            	else
+            	{
+            		pixel[0] = pixel1[0]<pixel2[0]?pixel1[0]:pixel2[0];
+            	}
+                               
+            }
+
+    vtkSmartPointer<vtkXMLImageDataWriter> writer1 =  vtkSmartPointer<vtkXMLImageDataWriter>::New();
+    writer1->SetFileName("output5.vti");
+    writer1->SetInputData(imageData);
+    writer1->Write();        
+
+	return 0;
+}

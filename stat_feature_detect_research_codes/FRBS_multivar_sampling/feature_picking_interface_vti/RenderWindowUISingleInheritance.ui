@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RenderWindowUISingleInheritance</class>
+ <widget class="QMainWindow" name="RenderWindowUISingleInheritance">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1141</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RenderWindowUISingleInheritance</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QVTKWidget" name="qvtkWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>781</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadData">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>104</y>
+      <width>99</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sphereWidget">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>440</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Sphere Widget</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="filter_points">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>520</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show Selection</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sphereRadiusSlider">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>481</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="value">
+     <number>30</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>480</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Adjust Radius</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="drawIsosurf">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>144</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Draw Isosurface</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="variables">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>104</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>logDensity</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tev</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>v02</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>v03</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>density</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gradient</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gradient1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>logTemperature</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>logRho</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pressure</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Velocity</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QVapor</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPlainTextEdit" name="isoval">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>144</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>26.5</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="isosurf_checkbox">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>290</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Show Isosurface</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="selection_checkbox">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>450</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Show Selection</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="update_rendering">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>290</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update Rendering</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quit">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>750</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quit</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="timestep">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>64</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>500</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>70</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Time step</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>360</y>
+      <width>341</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>10</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Render and Visualize</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>380</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Training Samples</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addSelection">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>520</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add Selection to List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveSampleData">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>600</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Save Sample Set</string>
+    </property>
+   </widget>
+   <widget class="pcp_openGL_window" name="pcp_window" native="true">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>540</y>
+      <width>780</width>
+      <height>250</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>560</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Specify Stallness</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="stallness_val">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>560</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>0.5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cleanSampleSet">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>640</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear current selection</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>240</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Extract Threshold</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="thhigh">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>200</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>32</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="thlow">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>200</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>25</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>200</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TH lower</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>200</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TH upper</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="th_checkbox">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>310</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Show Threshold</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>150</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Isoval</string>
+    </property>
+   </widget>
+  </widget>
+  <action name="actionOpenFile">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Open File...</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVTKWidget</class>
+   <extends>QWidget</extends>
+   <header>QVTKWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>pcp_openGL_window</class>
+   <extends>QWidget</extends>
+   <header location="global">pcp_openGL_window.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
