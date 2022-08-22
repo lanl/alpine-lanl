@@ -1,0 +1,699 @@
+Warning: No xauth data; using fake authentication data for X11 forwarding.
+X11 forwarding request failed on channel 0
+Warning: No xauth data; using fake authentication data for X11 forwarding.
+X11 forwarding request failed on channel 0
+MPI initialized with 32 MPI processes
+MPI initialized with thread support level 0
+OMP initialized with 4 OMP threads
+AMReX (20.07.0) initialized
+MFiX git hash: 97efb0bfbfd2-dirty
+Number of levels: 1
+Scalar diffusion coefficients 
+Tracer0:0
+Auto-generating level-set parameters:
+eb_refinement = 1
+levelset_pad  = 4
+eb_pad        = 4
+mfix.geometry_filename: 
+ No EB geometry declared in inputs =>  Will read walls from mfix.dat only.
+ 
+Now making the ebfactories ...
+Using max_grid_size only did not make enough grids for the number of processors!
+In MakeBaseGrids: BA HAS 32 GRIDS 
+SETTING NEW GRIDS IN MAKE NEW LEVEL (BoxArray maxbox(32)
+       m_ref->m_hash_sig(0)
+       ((0,0,0) (31,31,63) (0,0,0)) ((384,0,0) (415,31,63) (0,0,0)) ((256,0,0) (287,31,63) (0,0,0)) ((128,0,0) (159,31,63) (0,0,0)) ((0,0,64) (31,31,127) (0,0,0)) ((384,0,64) (415,31,127) (0,0,0)) ((256,0,64) (287,31,127) (0,0,0)) ((128,0,64) (159,31,127) (0,0,0)) ((64,0,0) (95,31,63) (0,0,0)) ((448,0,0) (479,31,63) (0,0,0)) ((320,0,0) (351,31,63) (0,0,0)) ((192,0,0) (223,31,63) (0,0,0)) ((64,0,64) (95,31,127) (0,0,0)) ((448,0,64) (479,31,127) (0,0,0)) ((320,0,64) (351,31,127) (0,0,0)) ((192,0,64) (223,31,127) (0,0,0)) ((32,0,0) (63,31,63) (0,0,0)) ((416,0,0) (447,31,63) (0,0,0)) ((288,0,0) (319,31,63) (0,0,0)) ((160,0,0) (191,31,63) (0,0,0)) ((32,0,64) (63,31,127) (0,0,0)) ((416,0,64) (447,31,127) (0,0,0)) ((288,0,64) (319,31,127) (0,0,0)) ((160,0,64) (191,31,127) (0,0,0)) ((96,0,0) (127,31,63) (0,0,0)) ((480,0,0) (511,31,63) (0,0,0)) ((352,0,0) (383,31,63) (0,0,0)) ((224,0,0) (255,31,63) (0,0,0)) ((96,0,64) (127,31,127) (0,0,0)) ((480,0,64) (511,31,127) (0,0,0)) ((352,0,64) (383,31,127) (0,0,0)) ((224,0,64) (255,31,127) (0,0,0)) )
+
+SETTING NEW DMAP IN MAKE NEW LEVEL (DistributionMapping
+m_pmap[0] = 15
+m_pmap[1] = 20
+m_pmap[2] = 14
+m_pmap[3] = 27
+m_pmap[4] = 5
+m_pmap[5] = 24
+m_pmap[6] = 6
+m_pmap[7] = 30
+m_pmap[8] = 0
+m_pmap[9] = 22
+m_pmap[10] = 12
+m_pmap[11] = 31
+m_pmap[12] = 8
+m_pmap[13] = 1
+m_pmap[14] = 18
+m_pmap[15] = 11
+m_pmap[16] = 16
+m_pmap[17] = 21
+m_pmap[18] = 26
+m_pmap[19] = 28
+m_pmap[20] = 7
+m_pmap[21] = 3
+m_pmap[22] = 17
+m_pmap[23] = 10
+m_pmap[24] = 25
+m_pmap[25] = 23
+m_pmap[26] = 4
+m_pmap[27] = 29
+m_pmap[28] = 9
+m_pmap[29] = 2
+m_pmap[30] = 19
+m_pmap[31] = 13
+)
+
+  Restarting from checkpoint /ccs/home/dutta/MFIX_FCC_chk/fcc_chk25000
+  Finished reading particle data
+mfix.geometry_filename: 
+ No EB geometry declared in inputs =>  Will read walls from mfix.dat only.
+ 
+Now making the ebfactories ...
+  Finished reading header
+  Loading ep_g
+  Loading p_g
+  Loading ro_g
+  Loading mu_g
+  Skipping level_sets
+  Finished reading fluid data
+     + Loaded level-set parameters:
+       ref = 2    pad = 4    eb_ref = 1 eb_pad = 4
+  Done with mfix::Restart 
+Regridding at step 25000
+Load balancing using KnapSack
+Updating ebfactory from existing
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Updating particle ebfactory 2
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Setting original sum_vol to 442174.374
+Time spent in init      4.885114239
+Catalyst Begin initialize...
+Catalyst here 2
+Catalyst here 3
+Catalyst initialize complete (1.504011759 sec)
+Regridding at step 25000
+Load balancing using KnapSack
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Updating particle ebfactory 2
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25001: from old_time 1.247677738 to new time 1.247727738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.324074941  0.2383394034  0.9804145711  479.8436267
+   max(abs(gpx/gpy/gpz))  = 28336.7922  6117.296087  23844.40636
+Min and Max of ep_g 0.3662069939 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.395295036  0.2559183713  0.9928574617  479.870323
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.324040112  0.2383616254  0.9802977145  479.870323
+   max(abs(gpx/gpy/gpz))  = 28302.60306  6141.118645  23841.69313
+Min and Max of ep_g 0.3662069939 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.395165009  0.25592329  0.9928331238  479.8997902
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.996824146
+   Time per 54 particle steps 7.093585869
+   Coupling time per step   0.455789692
+   Time per step        8.806830317
+  Writing plotfile high_freq_plt/fcc25001 at time 1.247727738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.224412095 secs. at rank: 0
+Catalyst CoProcess complete (0.680163379 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25002: from old_time 1.247727738 to new time 1.247777738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.325594919  0.2382778482  0.9807393285  479.8997902
+   max(abs(gpx/gpy/gpz))  = 28273.55651  6156.064383  23850.54299
+Min and Max of ep_g 0.3662031256 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.397212818  0.2557431897  0.9933200986  479.9339317
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.325559708  0.2383113408  0.9806190497  479.9339317
+   max(abs(gpx/gpy/gpz))  = 28241.12171  6174.835054  23846.35484
+Min and Max of ep_g 0.3662031256 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.397090819  0.2557583091  0.9932955265  479.9574317
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.006518251
+   Time per 54 particle steps 7.076564804
+   Coupling time per step   0.478418195
+   Time per step        8.559646311
+  Writing plotfile high_freq_plt/fcc25002 at time 1.247777738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.210507145 secs. at rank: 0
+Catalyst CoProcess complete (0.648030864 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25003: from old_time 1.247777738 to new time 1.247827738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.327074902  0.2381476133  0.9809540412  479.9574317
+   max(abs(gpx/gpy/gpz))  = 28215.87357  6185.554793  23854.24744
+Min and Max of ep_g 0.3661994552 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.39905429  0.2554871193  0.9937128782  479.9856449
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.327043183  0.2381904272  0.9808251381  479.9856449
+   max(abs(gpx/gpy/gpz))  = 28200.40217  6195.283978  23800.2236
+Min and Max of ep_g 0.3661994552 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.398933341  0.2555084501  0.9936731102  479.9907914
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.988325988
+   Time per 54 particle steps 7.091373942
+   Coupling time per step   0.504927163
+   Time per step        8.583248381
+  Writing plotfile high_freq_plt/fcc25003 at time 1.247827738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.220557132 secs. at rank: 0
+Catalyst CoProcess complete (0.646041983 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25004: from old_time 1.247827738 to new time 1.247877738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.328782157  0.2379513721  0.9810750781  479.9907914
+   max(abs(gpx/gpy/gpz))  = 28184.65659  6200.008944  23774.79004
+Min and Max of ep_g 0.3661956745 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.401014272  0.2551682268  0.9940013724  480.0250688
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.328735445  0.2380020543  0.9809387622  480.0250688
+   max(abs(gpx/gpy/gpz))  = 28179.68966  6212.17653  23703.2358
+Min and Max of ep_g 0.3661956745 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.40088969  0.2551998067  0.9939533987  480.0364144
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.008295044
+   Time per 54 particle steps 7.085902846
+   Coupling time per step   0.447200162
+   Time per step        8.540210664
+  Writing plotfile high_freq_plt/fcc25004 at time 1.247877738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.209184979 secs. at rank: 0
+Catalyst CoProcess complete (0.740970712 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25005: from old_time 1.247877738 to new time 1.247927738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.331085202  0.2377116973  0.98109309  480.0364144
+   max(abs(gpx/gpy/gpz))  = 28173.58569  6217.767238  23665.9193
+Min and Max of ep_g 0.3661940123 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.403278172  0.2547866171  0.9942026439  480.0573034
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.331006381  0.2377702474  0.9809519005  480.0573034
+   max(abs(gpx/gpy/gpz))  = 28159.61438  6229.111322  23574.34129
+Min and Max of ep_g 0.3661940123 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.40310939  0.2548258557  0.9941560858  480.0780138
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.000028726
+   Time per 54 particle steps 7.095166893
+   Coupling time per step   0.542741551
+   Time per step        8.635711214
+  Writing plotfile high_freq_plt/fcc25005 at time 1.247927738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.231449676 secs. at rank: 0
+Catalyst CoProcess complete (0.665976051 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25006: from old_time 1.247927738 to new time 1.247977738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.333566577  0.2374356012  0.9810326308  480.0780138
+   max(abs(gpx/gpy/gpz))  = 28148.54202  6233.8366  23520.72412
+Min and Max of ep_g 0.3661928931 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.405743968  0.2543762517  0.9943152393  480.1021652
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.333441946  0.2374972281  0.9808896103  480.1021652
+   max(abs(gpx/gpy/gpz))  = 28104.89148  6246.039832  23404.29503
+Min and Max of ep_g 0.3661928931 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.405538987  0.2544157217  0.9942685764  480.1216228
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.030055798
+   Time per 54 particle steps 7.099324979
+   Coupling time per step   0.484435893
+   Time per step        8.613251202
+  Writing plotfile high_freq_plt/fcc25006 at time 1.247977738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.236336158 secs. at rank: 0
+Catalyst CoProcess complete (0.700697056 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25007: from old_time 1.247977738 to new time 1.248027738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.339790782  0.2371616416  0.9808868702  480.1216228
+   max(abs(gpx/gpy/gpz))  = 28071.64274  6251.304063  23333.50999
+Min and Max of ep_g 0.3661920216 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.408284448  0.2539695865  0.9943067108  480.157831
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.339287156  0.2372222486  0.9807377728  480.157831
+   max(abs(gpx/gpy/gpz))  = 28035.88211  6259.950193  23233.38058
+Min and Max of ep_g 0.3661920216 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.408058224  0.2540077615  0.9942537656  480.1758188
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.99974516
+   Time per 54 particle steps 7.09713417
+   Coupling time per step   0.512622545
+   Time per step        8.607945501
+  Writing plotfile high_freq_plt/fcc25007 at time 1.248027738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.212926302 secs. at rank: 0
+Catalyst CoProcess complete (0.769531759 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25008: from old_time 1.248027738 to new time 1.248077738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.346650062  0.236887555  0.9806101972  480.1758188
+   max(abs(gpx/gpy/gpz))  = 28004.79665  6262.580417  23169.19589
+Min and Max of ep_g 0.3661915067 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.410812598  0.2535643435  0.994166628  480.203296
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.346271348  0.2369473289  0.9804562389  480.203296
+   max(abs(gpx/gpy/gpz))  = 27977.44116  6263.934656  23073.89391
+Min and Max of ep_g 0.3661915067 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.410589415  0.2536039223  0.9941124371  480.2387827
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.999183836
+   Time per 54 particle steps 7.08420336
+   Coupling time per step   0.591649705
+   Time per step        8.674314083
+  Writing plotfile high_freq_plt/fcc25008 at time 1.248077738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.195290765 secs. at rank: 0
+Catalyst CoProcess complete (0.639081017 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25009: from old_time 1.248077738 to new time 1.248127738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.353675869  0.2366164502  0.9802065325  480.2387827
+   max(abs(gpx/gpy/gpz))  = 27952.31752  6261.924578  23010.17954
+Min and Max of ep_g 0.3661903237 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.413282735  0.2531609476  0.9939466269  480.2654289
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.353632786  0.2366754294  0.9800476752  480.2654289
+   max(abs(gpx/gpy/gpz))  = 27931.91332  6262.800718  22915.31325
+Min and Max of ep_g 0.3661903237 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.413059392  0.2531958393  0.9938588459  480.3199262
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.003031112
+   Time per 54 particle steps 7.094094257
+   Coupling time per step   0.477946218
+   Time per step        8.573865268
+  Writing plotfile high_freq_plt/fcc25009 at time 1.248127738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.248081498 secs. at rank: 0
+Catalyst CoProcess complete (0.685430912 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25010: from old_time 1.248127738 to new time 1.248177738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.361715529  0.2366884932  0.9796920864  480.3199262
+   max(abs(gpx/gpy/gpz))  = 27910.15634  6260.928123  22849.10727
+Min and Max of ep_g 0.3661889216 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.415727786  0.2527713406  0.9935704782  480.2976087
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.361667812  0.2364171554  0.9795059942  480.2976087
+   max(abs(gpx/gpy/gpz))  = 27897.72187  6262.088209  22802.57334
+Min and Max of ep_g 0.3661889216 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.415504925  0.2528103616  0.993465554  480.3129206
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.000873802
+   Time per 54 particle steps 7.106509667
+   Coupling time per step   0.4678093
+   Time per step        8.573510683
+  Writing plotfile high_freq_plt/fcc25010 at time 1.248177738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.218011699 secs. at rank: 0
+Catalyst CoProcess complete (0.670305925 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25011: from old_time 1.248177738 to new time 1.248227738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.370126518  0.2393517848  0.9789853074  480.3129206
+   max(abs(gpx/gpy/gpz))  = 27884.18782  6260.455408  22789.36868
+Min and Max of ep_g 0.366187925 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.418150911  0.2524006595  0.9930344142  480.3758554
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.370074113  0.2390797724  0.9786379649  480.3758554
+   max(abs(gpx/gpy/gpz))  = 27875.00119  6261.607623  22730.38761
+Min and Max of ep_g 0.366187925 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.417916555  0.2524378211  0.9928113114  480.4117973
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.01165467
+   Time per 54 particle steps 7.103546174
+   Coupling time per step   0.470863396
+   Time per step        8.585751277
+  Writing plotfile high_freq_plt/fcc25011 at time 1.248227738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.234522682 secs. at rank: 0
+Catalyst CoProcess complete (0.775833942 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25012: from old_time 1.248227738 to new time 1.248277738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.378860859  0.2415470979  0.9777296956  480.4117973
+   max(abs(gpx/gpy/gpz))  = 27861.79983  6259.265196  22695.74754
+Min and Max of ep_g 0.3661866448 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.425951553  0.2538342822  0.9920835143  480.4362067
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.378805316  0.2412927602  0.9773995421  480.4362067
+   max(abs(gpx/gpy/gpz))  = 27853.80615  6257.299387  22616.40655
+Min and Max of ep_g 0.3661866448 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.425705182  0.2536509278  0.9918819262  480.4584946
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.999968094
+   Time per 54 particle steps 7.092664058
+   Coupling time per step   0.550708271
+   Time per step        8.641369842
+  Writing plotfile high_freq_plt/fcc25012 at time 1.248277738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.229452363 secs. at rank: 0
+Catalyst CoProcess complete (0.660710469 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25013: from old_time 1.248277738 to new time 1.248327738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.387943078  0.2433372315  0.9762388758  480.4584946
+   max(abs(gpx/gpy/gpz))  = 27840.98602  6250.584661  22564.80471
+Min and Max of ep_g 0.3661849131 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.434349011  0.2560153303  0.9908642802  480.4915126
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.387881474  0.2431367316  0.975924371  480.4915126
+   max(abs(gpx/gpy/gpz))  = 27841.06309  6244.60165  22481.62243
+Min and Max of ep_g 0.3661849131 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.434091225  0.2558892177  0.9906775542  480.5161555
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.015996112
+   Time per 54 particle steps 7.095138386
+   Coupling time per step   0.449474958
+   Time per step        8.559183511
+  Writing plotfile high_freq_plt/fcc25013 at time 1.248327738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.223449349 secs. at rank: 0
+Catalyst CoProcess complete (0.670485092 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25014: from old_time 1.248327738 to new time 1.248377738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.397215304  0.2448438229  0.9745159857  480.5161555
+   max(abs(gpx/gpy/gpz))  = 27834.00699  6235.082405  22427.79075
+Min and Max of ep_g 0.36618203 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.442886393  0.257460556  0.9894333454  480.5338944
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.39715256  0.2446860048  0.9742198522  480.5338944
+   max(abs(gpx/gpy/gpz))  = 27829.39899  6241.787432  22328.80017
+Min and Max of ep_g 0.36618203 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.442615935  0.2573403175  0.9892683275  480.5684042
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.015193971
+   Time per 54 particle steps 7.075041721
+   Coupling time per step   0.477818986
+   Time per step        8.566773817
+  Writing plotfile high_freq_plt/fcc25014 at time 1.248377738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.253299667 secs. at rank: 0
+Catalyst CoProcess complete (0.696868054 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25015: from old_time 1.248377738 to new time 1.248427738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.406403267  0.2454958337  0.9726311511  480.5684042
+   max(abs(gpx/gpy/gpz))  = 27820.6973  6251.677304  22265.507
+Min and Max of ep_g 0.3661791852 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.451323958  0.2586767414  0.987883822  480.6004958
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.40634025  0.2453165061  0.972351199  480.6004958
+   max(abs(gpx/gpy/gpz))  = 27801.91808  6260.399058  22162.84203
+Min and Max of ep_g 0.3661791852 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.451049897  0.2586454852  0.987732547  480.6268139
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.006465817
+   Time per 54 particle steps 7.09924167
+   Coupling time per step   0.460034062
+   Time per step        8.564042118
+  Writing plotfile high_freq_plt/fcc25015 at time 1.248427738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.290106884 secs. at rank: 0
+Catalyst CoProcess complete (0.729993534 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25016: from old_time 1.248427738 to new time 1.248477738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.415475511  0.2458576218  0.9706586529  480.6268139
+   max(abs(gpx/gpy/gpz))  = 27785.95632  6268.214137  22094.39886
+Min and Max of ep_g 0.3661776792 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.459605721  0.2595217045  0.9862226517  480.6571769
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.415415081  0.2455808711  0.9703819153  480.6571769
+   max(abs(gpx/gpy/gpz))  = 27760.30208  6271.60057  21970.5038
+Min and Max of ep_g 0.3661776792 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.459329237  0.2593665984  0.9860717448  480.6801318
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.999561352
+   Time per 54 particle steps 7.05997528
+   Coupling time per step   0.469427442
+   Time per step        8.527596296
+  Writing plotfile high_freq_plt/fcc25016 at time 1.248477738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.223099715 secs. at rank: 0
+Catalyst CoProcess complete (0.647914663 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25017: from old_time 1.248477738 to new time 1.248527738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.424357784  0.245264591  0.968578459  480.6801318
+   max(abs(gpx/gpy/gpz))  = 27737.90063  6276.056771  21886.2107
+Min and Max of ep_g 0.3661759401 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.467752096  0.2594582496  0.9844298142  480.6953414
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.424220503  0.2449846353  0.9683151643  480.6953414
+   max(abs(gpx/gpy/gpz))  = 27708.40888  6286.712799  21735.30893
+Min and Max of ep_g 0.3661759401 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.467427889  0.2592842813  0.9842827075  480.70885
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      1.007629672
+   Time per 54 particle steps 7.078511415
+   Coupling time per step   0.445677517
+   Time per step        8.529930977
+  Writing plotfile high_freq_plt/fcc25017 at time 1.248527738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.206629747 secs. at rank: 0
+Catalyst CoProcess complete (0.652525927 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25018: from old_time 1.248527738 to new time 1.248577738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.432847877  0.2437712445  0.9664215209  480.70885
+   max(abs(gpx/gpy/gpz))  = 27681.17766  6295.28429  21631.64252
+Min and Max of ep_g 0.3661745665 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.475687949  0.2581685585  0.9825255617  480.7393752
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.432304565  0.2436481974  0.966164076  480.7393752
+   max(abs(gpx/gpy/gpz))  = 27638.11159  6287.934006  21485.4664
+Min and Max of ep_g 0.3661745665 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.475091213  0.2580869932  0.9823937312  480.7532908
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.999103679
+   Time per 54 particle steps 7.090421737
+   Coupling time per step   0.459762989
+   Time per step        8.548845049
+  Writing plotfile high_freq_plt/fcc25018 at time 1.248577738
+Catalyst Begin CoProcess...
+4
+VTK Filter computation time 0.231034022 secs. at rank: 0
+Catalyst CoProcess complete (0.722379615 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25019: from old_time 1.248577738 to new time 1.248627738 with dt = 5e-05
+
+Could not read jskill result from pmix server
+
+
+https://jobstepviewer.olcf.ornl.gov/summit/1173819-1
+
+
+Traceback (most recent call last):
+  File "/sw/summit/job-step-viewer/1.0.3/bin/jsrun/jsrun", line 11, in <module>
+    load_entry_point('jsrun==0.0.1', 'console_scripts', 'jsrun')()
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/site-packages/jsrun/__main__.py", line 30, in main
+    sys.exit(jsrun_wrapper(args))
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/site-packages/jsrun/wrapper.py", line 431, in jsrun_wrapper
+    user_step = run(user_step_args_list, check=False)
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/sw/summit/job-step-viewer/1.0.3/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 1173819: <fcc_4_thread> in cluster <summit> Exited
+
+Job <fcc_4_thread> was submitted from host <login2> by user <dutta> in cluster <summit> at Tue Jul 20 18:38:54 2021
+Job was executed on host(s) <1*batch5>, in queue <debug>, as user <dutta> in cluster <summit> at Tue Jul 20 18:39:23 2021
+                            <42*g17n10>
+                            <42*g17n11>
+                            <42*g17n12>
+                            <42*g34n11>
+                            <42*g34n12>
+                            <42*g37n10>
+                            <42*g37n11>
+                            <42*g37n12>
+                            <42*g37n13>
+                            <42*g37n14>
+                            <42*h16n11>
+                            <42*h17n12>
+                            <42*h30n16>
+                            <42*h31n02>
+                            <42*h31n09>
+                            <42*h31n10>
+</ccs/home/dutta> was used as the home directory.
+</ccs/home/dutta/scratch/MFIX_Catalyst/fcc> was used as the working directory.
+Started at Tue Jul 20 18:39:23 2021
+Terminated at Tue Jul 20 18:42:50 2021
+Results reported at Tue Jul 20 18:42:50 2021
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,26 @@
+FY 2021:
+
+21 dec - 16  apr: Documenting the statistical feature exploration algorithm
+
+01 feb - 28 may: Develop feature tracking and visualization capability for flexible post-hoc feature analysis. We will be using outputs from our in situ statistical feature detection algorithm developed across several previous P6 activities. This feature tracking and visualization capability will complete the end-to-end analysis pipeline.
+
+19 apr - 13 aug: Evaluate the performance of in situ statistical feature exploration algorithm and start adding unit testing.
+
+16 aug - 17 dec: Finish adding unit testing and run the complete end-to-end in situ statistical feature detection and post-hoc tracking and visualization pipeline using Alpine infrastructure and ECP applications such as MFIX-EXa/SW4.
+
+16-19 : June 01 - Ends in Sept 30: Integrate VTKm filter with catalyst and run in summit with GPU support with MFiX-Exa.
+
+--------------------------------------------------------------------------------------------------------------------
+FY 2022:
+
+1 oct - 3 dec : Add documentation for post-hoc feature tracking algorithm.
+
+15 nov - 28 jan : Study the performance of the GPU-based feature detection algorithm compared to the simulation time.
+
+17 jan - 1 apr : Start optimizing the GPU-based VTKm filters of feature detection algorithm.
+
+21 mar - 3 june : Finish optimizing the GPU-based VTKm filters of feature detection algorithm and run on a large-scale use case of MFiX-Exa to study the stability of the algorithm.
+
+23 may - 5 aug : Finalize the complete in situ feature detection algorithm and post-hoc bubble analysis pipeline and run the end to end pipeline with large-scale MFiX-Exa use cases.
+
+18 jul - 30 sept : Update the final version of the documentation, check unit tests, harden the algorithm (if needed) and be ready to be tested on A21/O21.

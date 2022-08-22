@@ -1,0 +1,1950 @@
+MPI initialized with 96 MPI processes
+MPI initialized with thread support level 0
+AMReX (20.07.0) initialized
+MFiX git hash: 97efb0bfbfd2-dirty
+Number of levels: 1
+Scalar diffusion coefficients 
+Tracer0:0
+Auto-generating level-set parameters:
+eb_refinement = 1
+levelset_pad  = 4
+eb_pad        = 4
+mfix.geometry_filename: 
+ No EB geometry declared in inputs =>  Will read walls from mfix.dat only.
+ 
+Now making the ebfactories ...
+Using max_grid_size only did not make enough grids for the number of processors!
+In MakeBaseGrids: BA HAS 128 GRIDS 
+SETTING NEW GRIDS IN MAKE NEW LEVEL (BoxArray maxbox(128)
+       m_ref->m_hash_sig(0)
+       ((0,0,0) (15,31,31) (0,0,0)) ((384,0,0) (399,31,31) (0,0,0)) ((256,0,0) (271,31,31) (0,0,0)) ((128,0,0) (143,31,31) (0,0,0)) ((0,0,64) (15,31,95) (0,0,0)) ((384,0,64) (399,31,95) (0,0,0)) ((256,0,64) (271,31,95) (0,0,0)) ((128,0,64) (143,31,95) (0,0,0)) ((64,0,0) (79,31,31) (0,0,0)) ((448,0,0) (463,31,31) (0,0,0)) ((320,0,0) (335,31,31) (0,0,0)) ((192,0,0) (207,31,31) (0,0,0)) ((64,0,64) (79,31,95) (0,0,0)) ((448,0,64) (463,31,95) (0,0,0)) ((320,0,64) (335,31,95) (0,0,0)) ((192,0,64) (207,31,95) (0,0,0)) ((32,0,0) (47,31,31) (0,0,0)) ((416,0,0) (431,31,31) (0,0,0)) ((288,0,0) (303,31,31) (0,0,0)) ((160,0,0) (175,31,31) (0,0,0)) ((32,0,64) (47,31,95) (0,0,0)) ((416,0,64) (431,31,95) (0,0,0)) ((288,0,64) (303,31,95) (0,0,0)) ((160,0,64) (175,31,95) (0,0,0)) ((96,0,0) (111,31,31) (0,0,0)) ((480,0,0) (495,31,31) (0,0,0)) ((352,0,0) (367,31,31) (0,0,0)) ((224,0,0) (239,31,31) (0,0,0)) ((96,0,64) (111,31,95) (0,0,0)) ((480,0,64) (495,31,95) (0,0,0)) ((352,0,64) (367,31,95) (0,0,0)) ((224,0,64) (239,31,95) (0,0,0)) ((0,0,32) (15,31,63) (0,0,0)) ((384,0,32) (399,31,63) (0,0,0)) ((256,0,32) (271,31,63) (0,0,0)) ((128,0,32) (143,31,63) (0,0,0)) ((0,0,96) (15,31,127) (0,0,0)) ((384,0,96) (399,31,127) (0,0,0)) ((256,0,96) (271,31,127) (0,0,0)) ((128,0,96) (143,31,127) (0,0,0)) ((64,0,32) (79,31,63) (0,0,0)) ((448,0,32) (463,31,63) (0,0,0)) ((320,0,32) (335,31,63) (0,0,0)) ((192,0,32) (207,31,63) (0,0,0)) ((64,0,96) (79,31,127) (0,0,0)) ((448,0,96) (463,31,127) (0,0,0)) ((320,0,96) (335,31,127) (0,0,0)) ((192,0,96) (207,31,127) (0,0,0)) ((32,0,32) (47,31,63) (0,0,0)) ((416,0,32) (431,31,63) (0,0,0)) ((288,0,32) (303,31,63) (0,0,0)) ((160,0,32) (175,31,63) (0,0,0)) ((32,0,96) (47,31,127) (0,0,0)) ((416,0,96) (431,31,127) (0,0,0)) ((288,0,96) (303,31,127) (0,0,0)) ((160,0,96) (175,31,127) (0,0,0)) ((96,0,32) (111,31,63) (0,0,0)) ((480,0,32) (495,31,63) (0,0,0)) ((352,0,32) (367,31,63) (0,0,0)) ((224,0,32) (239,31,63) (0,0,0)) ((96,0,96) (111,31,127) (0,0,0)) ((480,0,96) (495,31,127) (0,0,0)) ((352,0,96) (367,31,127) (0,0,0)) ((224,0,96) (239,31,127) (0,0,0)) ((16,0,0) (31,31,31) (0,0,0)) ((400,0,0) (415,31,31) (0,0,0)) ((272,0,0) (287,31,31) (0,0,0)) ((144,0,0) (159,31,31) (0,0,0)) ((16,0,64) (31,31,95) (0,0,0)) ((400,0,64) (415,31,95) (0,0,0)) ((272,0,64) (287,31,95) (0,0,0)) ((144,0,64) (159,31,95) (0,0,0)) ((80,0,0) (95,31,31) (0,0,0)) ((464,0,0) (479,31,31) (0,0,0)) ((336,0,0) (351,31,31) (0,0,0)) ((208,0,0) (223,31,31) (0,0,0)) ((80,0,64) (95,31,95) (0,0,0)) ((464,0,64) (479,31,95) (0,0,0)) ((336,0,64) (351,31,95) (0,0,0)) ((208,0,64) (223,31,95) (0,0,0)) ((48,0,0) (63,31,31) (0,0,0)) ((432,0,0) (447,31,31) (0,0,0)) ((304,0,0) (319,31,31) (0,0,0)) ((176,0,0) (191,31,31) (0,0,0)) ((48,0,64) (63,31,95) (0,0,0)) ((432,0,64) (447,31,95) (0,0,0)) ((304,0,64) (319,31,95) (0,0,0)) ((176,0,64) (191,31,95) (0,0,0)) ((112,0,0) (127,31,31) (0,0,0)) ((496,0,0) (511,31,31) (0,0,0)) ((368,0,0) (383,31,31) (0,0,0)) ((240,0,0) (255,31,31) (0,0,0)) ((112,0,64) (127,31,95) (0,0,0)) ((496,0,64) (511,31,95) (0,0,0)) ((368,0,64) (383,31,95) (0,0,0)) ((240,0,64) (255,31,95) (0,0,0)) ((16,0,32) (31,31,63) (0,0,0)) ((400,0,32) (415,31,63) (0,0,0)) ((272,0,32) (287,31,63) (0,0,0)) ((144,0,32) (159,31,63) (0,0,0)) ((16,0,96) (31,31,127) (0,0,0)) ((400,0,96) (415,31,127) (0,0,0)) ((272,0,96) (287,31,127) (0,0,0)) ((144,0,96) (159,31,127) (0,0,0)) ((80,0,32) (95,31,63) (0,0,0)) ((464,0,32) (479,31,63) (0,0,0)) ((336,0,32) (351,31,63) (0,0,0)) ((208,0,32) (223,31,63) (0,0,0)) ((80,0,96) (95,31,127) (0,0,0)) ((464,0,96) (479,31,127) (0,0,0)) ((336,0,96) (351,31,127) (0,0,0)) ((208,0,96) (223,31,127) (0,0,0)) ((48,0,32) (63,31,63) (0,0,0)) ((432,0,32) (447,31,63) (0,0,0)) ((304,0,32) (319,31,63) (0,0,0)) ((176,0,32) (191,31,63) (0,0,0)) ((48,0,96) (63,31,127) (0,0,0)) ((432,0,96) (447,31,127) (0,0,0)) ((304,0,96) (319,31,127) (0,0,0)) ((176,0,96) (191,31,127) (0,0,0)) ((112,0,32) (127,31,63) (0,0,0)) ((496,0,32) (511,31,63) (0,0,0)) ((368,0,32) (383,31,63) (0,0,0)) ((240,0,32) (255,31,63) (0,0,0)) ((112,0,96) (127,31,127) (0,0,0)) ((496,0,96) (511,31,127) (0,0,0)) ((368,0,96) (383,31,127) (0,0,0)) ((240,0,96) (255,31,127) (0,0,0)) )
+
+SETTING NEW DMAP IN MAKE NEW LEVEL (DistributionMapping
+m_pmap[0] = 50
+m_pmap[1] = 8
+m_pmap[2] = 82
+m_pmap[3] = 66
+m_pmap[4] = 58
+m_pmap[5] = 22
+m_pmap[6] = 90
+m_pmap[7] = 74
+m_pmap[8] = 54
+m_pmap[9] = 18
+m_pmap[10] = 86
+m_pmap[11] = 70
+m_pmap[12] = 62
+m_pmap[13] = 0
+m_pmap[14] = 94
+m_pmap[15] = 78
+m_pmap[16] = 31
+m_pmap[17] = 42
+m_pmap[18] = 34
+m_pmap[19] = 6
+m_pmap[20] = 26
+m_pmap[21] = 46
+m_pmap[22] = 38
+m_pmap[23] = 14
+m_pmap[24] = 30
+m_pmap[25] = 44
+m_pmap[26] = 36
+m_pmap[27] = 12
+m_pmap[28] = 4
+m_pmap[29] = 48
+m_pmap[30] = 40
+m_pmap[31] = 27
+m_pmap[32] = 52
+m_pmap[33] = 16
+m_pmap[34] = 84
+m_pmap[35] = 68
+m_pmap[36] = 60
+m_pmap[37] = 24
+m_pmap[38] = 92
+m_pmap[39] = 76
+m_pmap[40] = 56
+m_pmap[41] = 20
+m_pmap[42] = 88
+m_pmap[43] = 72
+m_pmap[44] = 64
+m_pmap[45] = 2
+m_pmap[46] = 10
+m_pmap[47] = 80
+m_pmap[48] = 29
+m_pmap[49] = 43
+m_pmap[50] = 35
+m_pmap[51] = 7
+m_pmap[52] = 33
+m_pmap[53] = 47
+m_pmap[54] = 39
+m_pmap[55] = 15
+m_pmap[56] = 32
+m_pmap[57] = 45
+m_pmap[58] = 37
+m_pmap[59] = 13
+m_pmap[60] = 5
+m_pmap[61] = 49
+m_pmap[62] = 41
+m_pmap[63] = 28
+m_pmap[64] = 51
+m_pmap[65] = 9
+m_pmap[66] = 83
+m_pmap[67] = 67
+m_pmap[68] = 59
+m_pmap[69] = 23
+m_pmap[70] = 91
+m_pmap[71] = 75
+m_pmap[72] = 55
+m_pmap[73] = 19
+m_pmap[74] = 87
+m_pmap[75] = 71
+m_pmap[76] = 63
+m_pmap[77] = 1
+m_pmap[78] = 95
+m_pmap[79] = 79
+m_pmap[80] = 31
+m_pmap[81] = 42
+m_pmap[82] = 34
+m_pmap[83] = 6
+m_pmap[84] = 26
+m_pmap[85] = 46
+m_pmap[86] = 38
+m_pmap[87] = 14
+m_pmap[88] = 30
+m_pmap[89] = 44
+m_pmap[90] = 36
+m_pmap[91] = 12
+m_pmap[92] = 4
+m_pmap[93] = 48
+m_pmap[94] = 40
+m_pmap[95] = 27
+m_pmap[96] = 53
+m_pmap[97] = 17
+m_pmap[98] = 85
+m_pmap[99] = 69
+m_pmap[100] = 61
+m_pmap[101] = 25
+m_pmap[102] = 93
+m_pmap[103] = 77
+m_pmap[104] = 57
+m_pmap[105] = 21
+m_pmap[106] = 89
+m_pmap[107] = 73
+m_pmap[108] = 65
+m_pmap[109] = 3
+m_pmap[110] = 11
+m_pmap[111] = 81
+m_pmap[112] = 29
+m_pmap[113] = 43
+m_pmap[114] = 35
+m_pmap[115] = 7
+m_pmap[116] = 33
+m_pmap[117] = 47
+m_pmap[118] = 39
+m_pmap[119] = 15
+m_pmap[120] = 32
+m_pmap[121] = 45
+m_pmap[122] = 37
+m_pmap[123] = 13
+m_pmap[124] = 5
+m_pmap[125] = 49
+m_pmap[126] = 41
+m_pmap[127] = 28
+)
+
+  Restarting from checkpoint /ccs/home/dutta/MFIX_FCC_chk/fcc_chk25000
+  Finished reading particle data
+mfix.geometry_filename: 
+ No EB geometry declared in inputs =>  Will read walls from mfix.dat only.
+ 
+Now making the ebfactories ...
+  Finished reading header
+  Loading ep_g
+  Loading p_g
+  Loading ro_g
+  Loading mu_g
+  Skipping level_sets
+  Finished reading fluid data
+     + Loaded level-set parameters:
+       ref = 2    pad = 4    eb_ref = 1 eb_pad = 4
+  Done with mfix::Restart 
+Regridding at step 25000
+Load balancing using KnapSack
+Updating ebfactory from existing
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Updating particle ebfactory 2
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Setting original sum_vol to 442174.374
+Time spent in init      18.35022028
+Catalyst Begin initialize...
+Catalyst here 2
+Catalyst here 3
+Catalyst initialize complete (5.516786543 sec)
+Regridding at step 25000
+Load balancing using KnapSack
+Updating ebfactory from existing
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Updating particle ebfactory 2
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25001: from old_time 1.247677738 to new time 1.247727738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.324074942  0.2383394033  0.9804145707  479.8436267
+   max(abs(gpx/gpy/gpz))  = 28336.7922  6117.296087  23844.40636
+Min and Max of ep_g 0.3662069939 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.395295791  0.2559183314  0.9928570812  479.8729733
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.324040076  0.2383616245  0.9802977214  479.8729733
+   max(abs(gpx/gpy/gpz))  = 28302.54042  6141.114564  23841.62758
+Min and Max of ep_g 0.3662069939 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.395166176  0.2559232908  0.9928328292  479.903516
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.592377324
+   Time per 54 particle steps 4.000920077
+   Coupling time per step   0.495905687
+   Time per step        5.36143867
+  Writing plotfile high_freq_plt/fcc25001 at time 1.247727738
+Catalyst Begin CoProcess...
+(  31.313s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29949
+(  31.313s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31155
+(  31.313s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50449
+(  31.313s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23132
+(  31.313s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49845
+(  31.313s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47566
+(  31.688s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31022
+(  31.688s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51538
+(  31.688s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48673
+(  31.688s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39236
+(  31.688s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67311
+(  31.688s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51420
+(  31.525s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42150
+(  31.622s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34635
+(  31.525s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42416
+(  31.622s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51002
+(  31.525s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52530
+(  31.622s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56059
+(  31.525s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47372
+(  31.622s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 33971
+(  31.525s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44881
+(  30.887s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35091
+(  31.622s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38256
+(  31.389s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51658
+(  30.887s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38018
+(  31.622s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44930
+(  31.389s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37039
+(  30.887s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37776
+(  31.389s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53508
+(  30.887s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46580
+(  31.389s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25773
+(  30.887s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41664
+(  31.359s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53695
+(  31.592s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48601
+(  30.887s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66469
+(  31.592s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40583
+(  31.592s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37132
+(  31.618s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55330
+(  31.389s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71783
+(  31.592s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45105
+(  31.625s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64697
+(  31.592s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60579
+(  31.625s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35487
+(  30.904s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46000
+(  31.618s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62585
+(  31.592s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29908
+(  31.625s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30666
+(  31.359s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26798
+(  31.363s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42702
+(  31.625s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43289
+(  31.618s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42236
+(  31.363s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46420
+(  31.625s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29111
+(  31.363s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46926
+(  31.625s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45514
+(  31.627s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55681
+(  31.364s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47289
+(  31.624s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52334
+(  31.619s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29209
+(  31.389s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48602
+(  31.364s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43445
+(  31.624s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 58885
+(  31.363s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44124
+(  31.624s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25570
+(  30.904s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38284
+(  31.627s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30159
+(  31.624s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51922
+(  31.619s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30778
+(  31.359s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50395
+(  31.624s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51320
+(  31.624s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56054
+(  31.627s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27129
+(  30.904s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36931
+(  31.627s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 61928
+(  31.360s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31429
+(  31.627s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46237
+(  30.904s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38612
+(  31.360s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45723
+(  30.904s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26631
+(  31.360s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41790
+(  30.904s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51319
+(  31.361s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51761
+(  31.361s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 28939
+(  31.361s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54085
+(  31.629s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23570
+(  31.361s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56122
+(  31.361s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37799
+(  31.528s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35267
+(  31.361s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49520
+(  31.340s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24613
+(  31.340s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24938
+(  31.340s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43887
+(  31.340s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68072
+(  31.340s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23451
+(  31.340s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45258
+(  31.627s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44201
+At Rank: 70 Density field is created and time taken: 0.010012
+At Rank: 92 Density field is created and time taken: 0.036834
+At Rank: 13 Density field is created and time taken: 0.011991
+At Rank: 67 Density field is created and time taken: 0.009991
+At Rank: 95 Density field is created and time taken: 0.036854
+At Rank: 32 Density field is created and time taken: 0.013212
+At Rank: 14 Density field is created and time taken: 0.011991
+At Rank: 45 Density field is created and time taken: 0.012876
+At Rank: 69 Density field is created and time taken: 0.010012
+At Rank: 93 Density field is created and time taken: 0.036854
+At Rank: 35 Density field is created and time taken: 0.013223
+At Rank: 44 Density field is created and time taken: 0.012853
+At Rank: 71 Density field is created and time taken: 0.010011
+At Rank: 94 Density field is created and time taken: 0.036854
+At Rank: 15 Density field is created and time taken: 0.012001
+At Rank: 31 Density field is created and time taken: 0.013212
+At Rank: 43 Density field is created and time taken: 0.012853
+At Rank: 91 Density field is created and time taken: 0.036835
+At Rank: 16 Density field is created and time taken: 0.012001
+At Rank: 68 Density field is created and time taken: 0.00999
+At Rank: 33 Density field is created and time taken: 0.013223
+At Rank: 47 Density field is created and time taken: 0.012876
+At Rank: 19 Density field is created and time taken: 0.011653
+At Rank: 90 Density field is created and time taken: 0.037469
+At Rank: 17 Density field is created and time taken: 0.012001
+At Rank: 34 Density field is created and time taken: 0.013223
+At Rank: 73 Density field is created and time taken: 0.013529
+At Rank: 46 Density field is created and time taken: 0.012876
+At Rank: 66 Density field is created and time taken: 0.010326
+At Rank: 82 Density field is created and time taken: 0.010604
+At Rank: 42 Density field is created and time taken: 0.013069
+At Rank: 21 Density field is created and time taken: 0.011636
+At Rank: 74 Density field is created and time taken: 0.013529
+At Rank: 20 Density field is created and time taken: 0.011653
+At Rank: 11 Density field is created and time taken: 0.015114
+At Rank: 79 Density field is created and time taken: 0.010591
+At Rank: 76 Density field is created and time taken: 0.013519
+At Rank: 23 Density field is created and time taken: 0.011636
+At Rank: 22 Density field is created and time taken: 0.011637
+At Rank: 9 Density field is created and time taken: 0.015115
+At Rank: 18 Density field is created and time taken: 0.011914
+At Rank: 10 Density field is created and time taken: 0.015115
+At Rank: 2 Density field is created and time taken: 0.012233
+At Rank: 12 Density field is created and time taken: 0.012418
+At Rank: 8 Density field is created and time taken: 0.015123
+At Rank: 75 Density field is created and time taken: 0.013519
+At Rank: 61 Density field is created and time taken: 0.012674
+At Rank: 53 Density field is created and time taken: 0.012351
+At Rank: 55 Density field is created and time taken: 0.011257
+At Rank: 7 Density field is created and time taken: 0.015122
+At Rank: 1 Density field is created and time taken: 0.012232
+At Rank: 30 Density field is created and time taken: 0.013684
+At Rank: 83 Density field is created and time taken: 0.010604
+At Rank: 77 Density field is created and time taken: 0.013519
+At Rank: 57 Density field is created and time taken: 0.011256
+At Rank: 64 Density field is created and time taken: 0.012672
+At Rank: 49 Density field is created and time taken: 0.01233
+At Rank: 81 Density field is created and time taken: 0.010604
+At Rank: 3 Density field is created and time taken: 0.012236
+At Rank: 58 Density field is created and time taken: 0.011256
+At Rank: 85 Density field is created and time taken: 0.011239
+At Rank: 80 Density field is created and time taken: 0.010591
+At Rank: 59 Density field is created and time taken: 0.011256
+At Rank: 51 Density field is created and time taken: 0.012351
+At Rank: 5 Density field is created and time taken: 0.012236
+At Rank: 6 Density field is created and time taken: 0.01563
+At Rank: 78 Density field is created and time taken: 0.011035
+At Rank: 56 Density field is created and time taken: 0.011257
+At Rank: 63 Density field is created and time taken: 0.012672
+At Rank: 52 Density field is created and time taken: 0.012351
+At Rank: 54 Density field is created and time taken: 0.011734
+At Rank: 4 Density field is created and time taken: 0.012236
+At Rank: 62 Density field is created and time taken: 0.012674
+At Rank: 50 Density field is created and time taken: 0.01233
+At Rank: 25 Density field is created and time taken: 0.009745
+At Rank: 87 Density field is created and time taken: 0.011221
+At Rank: 27 Density field is created and time taken: 0.009761
+At Rank: 65 Density field is created and time taken: 0.012672
+At Rank: 72 Density field is created and time taken: 0.012416
+At Rank: 88 Density field is created and time taken: 0.011221
+At Rank: 48 Density field is created and time taken: 0.012922
+At Rank: 29 Density field is created and time taken: 0.009761
+At Rank: 60 Density field is created and time taken: 0.013037
+At Rank: 28 Density field is created and time taken: 0.009761
+At Rank: 86 Density field is created and time taken: 0.011239
+At Rank: 26 Density field is created and time taken: 0.009745
+At Rank: 89 Density field is created and time taken: 0.011221
+At Rank: 84 Density field is created and time taken: 0.011589
+At Rank: 0 Density field is created and time taken: 0.005938
+At Rank: 37 Density field is created and time taken: 0.013343
+At Rank: 39 Density field is created and time taken: 0.013323
+At Rank: 41 Density field is created and time taken: 0.013323
+At Rank: 24 Density field is created and time taken: 0.010647
+At Rank: 40 Density field is created and time taken: 0.013323
+At Rank: 38 Density field is created and time taken: 0.013343
+At Rank: 36 Density field is created and time taken: 0.01399
+Final Slic itereration num: 50 and final epsilon: 13.46130553
+Slic is done and time taken: 48.950185
+similarity field is generated and time taken: 0.070687
+total time: 49.091559
+Catalyst CoProcess complete (49.9752417 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25002: from old_time 1.247727738 to new time 1.247777738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.325595967  0.2382778455  0.9807390369  479.903516
+   max(abs(gpx/gpy/gpz))  = 28273.45762  6156.05535  23850.43751
+Min and Max of ep_g 0.366203127 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.397214734  0.2557432828  0.9933194171  479.9273082
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.325560756  0.2383113293  0.9806187612  479.9273082
+   max(abs(gpx/gpy/gpz))  = 28241.04857  6174.824398  23846.24886
+Min and Max of ep_g 0.366203127 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.397092956  0.2557583989  0.9932946658  479.9667702
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.592062199
+   Time per 54 particle steps 3.993085389
+   Coupling time per step   0.49597962
+   Time per step        5.0801086
+  Writing plotfile high_freq_plt/fcc25002 at time 1.247777738
+Catalyst Begin CoProcess...
+(  86.802s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64708
+(  86.802s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43298
+(  86.802s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29115
+(  86.802s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35488
+(  86.802s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30663
+(  86.802s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45531
+(  86.541s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31420
+(  86.541s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45689
+(  86.541s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26783
+(  86.541s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41798
+(  86.541s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50387
+(  86.541s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53691
+(  86.709s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44888
+(  86.709s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42411
+(  86.709s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42170
+(  86.709s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47358
+(  86.709s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52547
+(  86.544s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47304
+(  86.544s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44119
+(  86.544s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46413
+(  86.544s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42695
+(  86.087s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38564
+(  86.544s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43447
+(  86.087s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51307
+(  86.544s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46928
+(  86.087s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38294
+(  86.807s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 33980
+(  86.087s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26624
+(  86.807s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38241
+(  86.087s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36924
+(  86.807s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44917
+(  86.087s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46018
+(  86.807s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56046
+(  86.807s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34623
+(  86.807s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51013
+(  86.803s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30823
+(  86.523s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29939
+(  86.803s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29222
+(  86.523s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47563
+(  86.072s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35106
+(  86.803s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42234
+(  86.523s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50421
+(  86.072s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38021
+(  86.777s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48583
+(  86.803s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55355
+(  86.523s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49842
+(  86.072s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66468
+(  86.777s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60619
+(  86.803s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62588
+(  86.523s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23133
+(  86.777s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29889
+(  86.073s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37764
+(  86.876s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31020
+(  86.522s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43886
+(  86.523s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31157
+(  86.073s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46583
+(  86.777s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45099
+(  86.876s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39246
+(  86.522s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24925
+(  86.073s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41698
+(  86.777s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40581
+(  86.876s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51417
+(  86.522s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45247
+(  86.777s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37155
+(  86.808s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51342
+(  86.813s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 61955
+(  86.876s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48664
+(  86.522s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23441
+(  86.876s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51545
+(  86.813s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27148
+(  86.876s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67313
+(  86.808s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 58900
+(  86.522s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68059
+(  86.813s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23579
+(  86.808s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25564
+(  86.808s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52349
+(  86.712s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35275
+(  86.813s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46246
+(  86.808s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56044
+(  86.808s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51883
+(  86.813s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30151
+(  86.546s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49537
+(  86.813s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55660
+(  86.546s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54086
+(  86.546s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 28964
+(  86.546s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51748
+(  86.546s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37797
+(  86.546s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56121
+(  86.524s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24595
+(  86.577s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37044
+(  86.577s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51636
+(  86.577s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71785
+(  86.577s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48583
+(  86.577s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25778
+(  86.577s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53493
+(  86.812s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44213
+At Rank: 93 Density field is created and time taken: 0.011621
+At Rank: 67 Density field is created and time taken: 0.013812
+At Rank: 94 Density field is created and time taken: 0.011621
+At Rank: 14 Density field is created and time taken: 0.013414
+At Rank: 68 Density field is created and time taken: 0.01392
+At Rank: 92 Density field is created and time taken: 0.011614
+At Rank: 32 Density field is created and time taken: 0.01314
+At Rank: 46 Density field is created and time taken: 0.011874
+At Rank: 71 Density field is created and time taken: 0.013903
+At Rank: 17 Density field is created and time taken: 0.013506
+At Rank: 91 Density field is created and time taken: 0.011621
+At Rank: 34 Density field is created and time taken: 0.013148
+At Rank: 44 Density field is created and time taken: 0.011623
+At Rank: 69 Density field is created and time taken: 0.013897
+At Rank: 15 Density field is created and time taken: 0.013506
+At Rank: 95 Density field is created and time taken: 0.011621
+At Rank: 33 Density field is created and time taken: 0.01315
+At Rank: 47 Density field is created and time taken: 0.011863
+At Rank: 70 Density field is created and time taken: 0.013897
+At Rank: 13 Density field is created and time taken: 0.013371
+At Rank: 90 Density field is created and time taken: 0.012245
+At Rank: 31 Density field is created and time taken: 0.01313
+At Rank: 73 Density field is created and time taken: 0.014668
+At Rank: 45 Density field is created and time taken: 0.011874
+At Rank: 66 Density field is created and time taken: 0.014281
+At Rank: 35 Density field is created and time taken: 0.01315
+At Rank: 43 Density field is created and time taken: 0.011707
+At Rank: 19 Density field is created and time taken: 0.011491
+At Rank: 16 Density field is created and time taken: 0.013506
+At Rank: 42 Density field is created and time taken: 0.012066
+At Rank: 21 Density field is created and time taken: 0.011467
+At Rank: 79 Density field is created and time taken: 0.011078
+At Rank: 74 Density field is created and time taken: 0.014681
+At Rank: 20 Density field is created and time taken: 0.011524
+At Rank: 81 Density field is created and time taken: 0.011129
+At Rank: 63 Density field is created and time taken: 0.015437
+At Rank: 23 Density field is created and time taken: 0.011479
+At Rank: 8 Density field is created and time taken: 0.011418
+At Rank: 75 Density field is created and time taken: 0.014657
+At Rank: 22 Density field is created and time taken: 0.011478
+At Rank: 80 Density field is created and time taken: 0.011097
+At Rank: 18 Density field is created and time taken: 0.011747
+At Rank: 57 Density field is created and time taken: 0.018119
+At Rank: 7 Density field is created and time taken: 0.011427
+At Rank: 12 Density field is created and time taken: 0.013829
+At Rank: 76 Density field is created and time taken: 0.014662
+At Rank: 1 Density field is created and time taken: 0.01218
+At Rank: 82 Density field is created and time taken: 0.011126
+At Rank: 50 Density field is created and time taken: 0.011584
+At Rank: 59 Density field is created and time taken: 0.018121
+At Rank: 9 Density field is created and time taken: 0.011307
+At Rank: 64 Density field is created and time taken: 0.015437
+At Rank: 77 Density field is created and time taken: 0.014664
+At Rank: 83 Density field is created and time taken: 0.01114
+At Rank: 2 Density field is created and time taken: 0.012243
+At Rank: 55 Density field is created and time taken: 0.018112
+At Rank: 10 Density field is created and time taken: 0.011304
+At Rank: 53 Density field is created and time taken: 0.011686
+At Rank: 62 Density field is created and time taken: 0.015439
+At Rank: 30 Density field is created and time taken: 0.013747
+At Rank: 3 Density field is created and time taken: 0.012142
+At Rank: 56 Density field is created and time taken: 0.018115
+At Rank: 11 Density field is created and time taken: 0.011313
+At Rank: 49 Density field is created and time taken: 0.011594
+At Rank: 61 Density field is created and time taken: 0.015434
+At Rank: 78 Density field is created and time taken: 0.011656
+At Rank: 58 Density field is created and time taken: 0.018119
+At Rank: 5 Density field is created and time taken: 0.012146
+At Rank: 86 Density field is created and time taken: 0.011033
+At Rank: 52 Density field is created and time taken: 0.01167
+At Rank: 54 Density field is created and time taken: 0.018603
+At Rank: 6 Density field is created and time taken: 0.011996
+At Rank: 4 Density field is created and time taken: 0.012142
+At Rank: 51 Density field is created and time taken: 0.011683
+At Rank: 65 Density field is created and time taken: 0.015437
+At Rank: 89 Density field is created and time taken: 0.010995
+At Rank: 60 Density field is created and time taken: 0.01584
+At Rank: 26 Density field is created and time taken: 0.012367
+At Rank: 87 Density field is created and time taken: 0.010995
+At Rank: 85 Density field is created and time taken: 0.011031
+At Rank: 28 Density field is created and time taken: 0.012318
+At Rank: 48 Density field is created and time taken: 0.012383
+At Rank: 88 Density field is created and time taken: 0.010995
+At Rank: 25 Density field is created and time taken: 0.012401
+At Rank: 84 Density field is created and time taken: 0.011454
+At Rank: 72 Density field is created and time taken: 0.012189
+At Rank: 0 Density field is created and time taken: 0.004934
+At Rank: 27 Density field is created and time taken: 0.012291
+At Rank: 38 Density field is created and time taken: 0.00991
+At Rank: 29 Density field is created and time taken: 0.012326
+At Rank: 37 Density field is created and time taken: 0.009904
+At Rank: 24 Density field is created and time taken: 0.010927
+At Rank: 41 Density field is created and time taken: 0.009933
+At Rank: 40 Density field is created and time taken: 0.009933
+At Rank: 39 Density field is created and time taken: 0.009933
+At Rank: 36 Density field is created and time taken: 0.010395
+Final Slic itereration num: 50 and final epsilon: 13.41171514
+Slic is done and time taken: 48.735715
+similarity field is generated and time taken: 0.070514
+total time: 48.876743
+Catalyst CoProcess complete (49.62762881 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25003: from old_time 1.247777738 to new time 1.247827738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.327076865  0.2381476836  0.9809531923  479.9667702
+   max(abs(gpx/gpy/gpz))  = 28215.84402  6185.547592  23854.13834
+Min and Max of ep_g 0.3661994678 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.399053686  0.2554871244  0.993711182  479.9539685
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.327045326  0.2381905128  0.9808242897  479.9539685
+   max(abs(gpx/gpy/gpz))  = 28200.37756  6195.284374  23800.07853
+Min and Max of ep_g 0.3661994678 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.398931292  0.2555081878  0.9936713459  479.9750232
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.595953064
+   Time per 54 particle steps 3.987742071
+   Coupling time per step   0.495542636
+   Time per step        5.078234575
+  Writing plotfile high_freq_plt/fcc25003 at time 1.247827738
+Catalyst Begin CoProcess...
+( 141.330s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45226
+( 141.330s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68041
+( 141.330s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43868
+( 141.330s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23439
+( 141.330s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24907
+( 141.714s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51565
+( 141.714s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31027
+( 141.616s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48569
+( 141.714s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67325
+( 141.616s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37176
+( 141.714s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39245
+( 141.616s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29864
+( 141.714s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51421
+( 141.616s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60652
+( 141.714s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48662
+( 141.616s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40584
+( 141.616s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45090
+( 141.364s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29932
+( 141.364s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47545
+( 141.364s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50395
+( 141.649s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30666
+( 141.364s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31157
+( 141.649s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35485
+( 141.364s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49853
+( 141.649s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29113
+( 141.415s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37057
+( 141.388s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46932
+( 140.930s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51313
+( 141.364s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23127
+( 141.388s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42701
+( 141.649s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45533
+( 141.415s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51613
+( 141.388s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44114
+( 141.649s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43315
+( 140.930s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26612
+( 140.915s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66441
+( 141.388s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46404
+( 141.649s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64728
+( 141.650s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 33992
+( 141.415s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71784
+( 140.915s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35125
+( 141.388s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43455
+( 140.930s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36923
+( 141.650s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34605
+( 140.915s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38016
+( 141.388s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47318
+( 141.650s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51003
+( 141.415s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48555
+( 140.915s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46587
+( 140.930s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46022
+( 141.650s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38228
+( 140.915s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37761
+( 141.650s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44897
+( 141.415s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25792
+( 140.915s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41722
+( 140.930s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38298
+( 141.650s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56038
+( 141.650s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25552
+( 141.415s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53501
+( 141.650s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52353
+( 140.930s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38535
+( 141.650s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 58924
+( 141.645s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30844
+( 141.650s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51862
+( 141.645s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29238
+( 141.654s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27177
+( 141.650s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56049
+( 141.654s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55612
+( 141.650s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51354
+( 141.645s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42234
+( 141.654s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 61978
+( 141.645s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55357
+( 141.654s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46257
+( 141.554s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42186
+( 141.387s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49555
+( 141.645s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62598
+( 141.654s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30154
+( 141.554s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35281
+( 141.364s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24595
+( 141.387s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54099
+( 141.554s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42411
+( 141.387s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51746
+( 141.554s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52584
+( 141.554s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47335
+( 141.387s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 28978
+( 141.554s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44889
+( 141.387s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37790
+( 141.387s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56126
+( 141.656s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23584
+( 141.389s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53695
+( 141.389s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31430
+( 141.389s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26758
+( 141.389s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41809
+( 141.389s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45642
+( 141.389s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50394
+( 141.653s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44200
+At Rank: 91 Density field is created and time taken: 0.012786
+At Rank: 92 Density field is created and time taken: 0.012791
+At Rank: 14 Density field is created and time taken: 0.012102
+At Rank: 67 Density field is created and time taken: 0.012039
+At Rank: 32 Density field is created and time taken: 0.012485
+At Rank: 94 Density field is created and time taken: 0.012777
+At Rank: 44 Density field is created and time taken: 0.011305
+At Rank: 70 Density field is created and time taken: 0.012089
+At Rank: 31 Density field is created and time taken: 0.012448
+At Rank: 16 Density field is created and time taken: 0.012167
+At Rank: 93 Density field is created and time taken: 0.012783
+At Rank: 75 Density field is created and time taken: 0.011432
+At Rank: 46 Density field is created and time taken: 0.011418
+At Rank: 69 Density field is created and time taken: 0.012085
+At Rank: 33 Density field is created and time taken: 0.012442
+At Rank: 95 Density field is created and time taken: 0.012782
+At Rank: 43 Density field is created and time taken: 0.011335
+At Rank: 71 Density field is created and time taken: 0.012091
+At Rank: 34 Density field is created and time taken: 0.012442
+At Rank: 17 Density field is created and time taken: 0.012167
+At Rank: 90 Density field is created and time taken: 0.013189
+At Rank: 76 Density field is created and time taken: 0.011433
+At Rank: 47 Density field is created and time taken: 0.011411
+At Rank: 68 Density field is created and time taken: 0.012087
+At Rank: 35 Density field is created and time taken: 0.012444
+At Rank: 45 Density field is created and time taken: 0.011418
+At Rank: 19 Density field is created and time taken: 0.014963
+At Rank: 30 Density field is created and time taken: 0.012741
+At Rank: 1 Density field is created and time taken: 0.01197
+At Rank: 42 Density field is created and time taken: 0.011679
+At Rank: 21 Density field is created and time taken: 0.014967
+At Rank: 13 Density field is created and time taken: 0.012071
+At Rank: 82 Density field is created and time taken: 0.011761
+At Rank: 77 Density field is created and time taken: 0.011435
+At Rank: 20 Density field is created and time taken: 0.01495
+At Rank: 83 Density field is created and time taken: 0.011776
+At Rank: 66 Density field is created and time taken: 0.01257
+At Rank: 7 Density field is created and time taken: 0.015397
+At Rank: 4 Density field is created and time taken: 0.011831
+At Rank: 23 Density field is created and time taken: 0.014981
+At Rank: 15 Density field is created and time taken: 0.012166
+At Rank: 22 Density field is created and time taken: 0.014979
+At Rank: 81 Density field is created and time taken: 0.011762
+At Rank: 74 Density field is created and time taken: 0.011406
+At Rank: 57 Density field is created and time taken: 0.013165
+At Rank: 18 Density field is created and time taken: 0.015096
+At Rank: 9 Density field is created and time taken: 0.015374
+At Rank: 49 Density field is created and time taken: 0.012266
+At Rank: 5 Density field is created and time taken: 0.011835
+At Rank: 79 Density field is created and time taken: 0.011671
+At Rank: 56 Density field is created and time taken: 0.013229
+At Rank: 8 Density field is created and time taken: 0.015393
+At Rank: 73 Density field is created and time taken: 0.011402
+At Rank: 12 Density field is created and time taken: 0.01236
+At Rank: 53 Density field is created and time taken: 0.012345
+At Rank: 80 Density field is created and time taken: 0.011695
+At Rank: 55 Density field is created and time taken: 0.013239
+At Rank: 2 Density field is created and time taken: 0.011974
+At Rank: 10 Density field is created and time taken: 0.015365
+At Rank: 25 Density field is created and time taken: 0.045901
+At Rank: 58 Density field is created and time taken: 0.013168
+At Rank: 61 Density field is created and time taken: 0.009285
+At Rank: 11 Density field is created and time taken: 0.015376
+At Rank: 52 Density field is created and time taken: 0.01233
+At Rank: 78 Density field is created and time taken: 0.012299
+At Rank: 3 Density field is created and time taken: 0.011832
+At Rank: 59 Density field is created and time taken: 0.01317
+At Rank: 28 Density field is created and time taken: 0.045885
+At Rank: 54 Density field is created and time taken: 0.013681
+At Rank: 65 Density field is created and time taken: 0.009321
+At Rank: 6 Density field is created and time taken: 0.015934
+At Rank: 51 Density field is created and time taken: 0.01234
+At Rank: 26 Density field is created and time taken: 0.045866
+At Rank: 62 Density field is created and time taken: 0.009295
+At Rank: 50 Density field is created and time taken: 0.012253
+At Rank: 85 Density field is created and time taken: 0.011652
+At Rank: 27 Density field is created and time taken: 0.045858
+At Rank: 48 Density field is created and time taken: 0.010684
+At Rank: 0 Density field is created and time taken: 0.005311
+At Rank: 29 Density field is created and time taken: 0.045902
+At Rank: 64 Density field is created and time taken: 0.009319
+At Rank: 72 Density field is created and time taken: 0.01239
+At Rank: 86 Density field is created and time taken: 0.011671
+At Rank: 63 Density field is created and time taken: 0.009317
+At Rank: 24 Density field is created and time taken: 0.013104
+At Rank: 88 Density field is created and time taken: 0.011663
+At Rank: 60 Density field is created and time taken: 0.009594
+At Rank: 89 Density field is created and time taken: 0.011667
+At Rank: 87 Density field is created and time taken: 0.011669
+At Rank: 84 Density field is created and time taken: 0.011897
+At Rank: 38 Density field is created and time taken: 0.013446
+At Rank: 37 Density field is created and time taken: 0.013469
+At Rank: 41 Density field is created and time taken: 0.013518
+At Rank: 40 Density field is created and time taken: 0.013514
+At Rank: 39 Density field is created and time taken: 0.013512
+At Rank: 36 Density field is created and time taken: 0.014171
+Final Slic itereration num: 50 and final epsilon: 13.49909218
+Slic is done and time taken: 48.858414
+similarity field is generated and time taken: 0.072055
+total time: 49.002524
+Catalyst CoProcess complete (49.8348743 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25004: from old_time 1.247827738 to new time 1.247877738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.328780377  0.2379511486  0.9810733333  479.9750232
+   max(abs(gpx/gpy/gpz))  = 28184.636  6200.013209  23774.61497
+Min and Max of ep_g 0.366195777 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.40101179  0.2551675636  0.9939990245  480.0071565
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.328733549  0.2380018432  0.9809370184  480.0071565
+   max(abs(gpx/gpy/gpz))  = 28179.73267  6212.186951  23703.01827
+Min and Max of ep_g 0.366195777 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.400887226  0.2551993017  0.9939513914  480.0372816
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.598959372
+   Time per 54 particle steps 3.988144888
+   Coupling time per step   0.49467453
+   Time per step        5.080826645
+  Writing plotfile high_freq_plt/fcc25004 at time 1.247877738
+Catalyst Begin CoProcess...
+( 195.944s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35123
+( 195.944s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66454
+( 195.944s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38019
+( 195.944s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37744
+( 195.944s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46587
+( 195.944s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41726
+( 196.420s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 29010
+( 196.683s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52380
+( 196.683s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51336
+( 196.683s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51834
+( 196.587s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44907
+( 196.420s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49568
+( 196.399s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47519
+( 196.683s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25541
+( 196.399s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29936
+( 196.683s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56065
+( 196.587s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47321
+( 196.420s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54109
+( 196.399s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50388
+( 196.683s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 58944
+( 196.399s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31152
+( 196.587s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52615
+( 196.424s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47308
+( 196.685s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64756
+( 196.420s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56135
+( 196.654s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40582
+( 196.399s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23127
+( 196.685s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30671
+( 196.399s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49853
+( 196.587s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42408
+( 196.424s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43446
+( 196.685s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34590
+( 196.420s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51724
+( 196.654s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37200
+( 196.685s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45526
+( 196.420s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45622
+( 196.587s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42191
+( 196.424s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46401
+( 196.685s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56029
+( 196.654s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48570
+( 196.684s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35483
+( 196.420s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37773
+( 196.424s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46920
+( 196.685s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51005
+( 196.420s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53697
+( 196.654s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45105
+( 196.685s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43328
+( 196.588s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35302
+( 196.424s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42708
+( 196.685s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44873
+( 195.965s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51316
+( 196.654s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60697
+( 196.685s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29112
+( 196.420s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31434
+( 196.685s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 34012
+( 196.424s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44131
+( 195.965s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38497
+( 196.654s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29861
+( 196.685s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38234
+( 196.420s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41823
+( 196.752s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67323
+( 195.965s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26600
+( 196.752s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51570
+( 196.420s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50377
+( 196.752s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39244
+( 195.965s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46033
+( 196.752s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48659
+( 196.420s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26740
+( 196.752s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51402
+( 195.965s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36902
+( 196.752s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31028
+( 195.965s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38304
+( 196.690s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 61985
+( 196.690s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23586
+( 196.690s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55601
+( 196.690s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27214
+( 196.690s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30144
+( 196.690s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46259
+( 196.682s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30872
+( 196.682s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29246
+( 196.683s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62592
+( 196.401s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24899
+( 196.683s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55381
+( 196.401s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43855
+( 196.683s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42227
+( 196.401s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68033
+( 196.401s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45220
+( 196.401s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23436
+( 196.414s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24582
+( 196.467s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53493
+( 196.467s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71782
+( 196.467s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37054
+( 196.467s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48537
+( 196.467s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51603
+( 196.467s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25772
+( 196.701s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44201
+At Rank: 68 Density field is created and time taken: 0.023935
+At Rank: 91 Density field is created and time taken: 0.024932
+At Rank: 14 Density field is created and time taken: 0.025275
+At Rank: 70 Density field is created and time taken: 0.023929
+At Rank: 94 Density field is created and time taken: 0.02493
+At Rank: 13 Density field is created and time taken: 0.025236
+At Rank: 71 Density field is created and time taken: 0.023935
+At Rank: 31 Density field is created and time taken: 0.024702
+At Rank: 92 Density field is created and time taken: 0.024889
+At Rank: 16 Density field is created and time taken: 0.025308
+At Rank: 43 Density field is created and time taken: 0.030097
+At Rank: 69 Density field is created and time taken: 0.023933
+At Rank: 32 Density field is created and time taken: 0.024714
+At Rank: 93 Density field is created and time taken: 0.024931
+At Rank: 17 Density field is created and time taken: 0.025308
+At Rank: 44 Density field is created and time taken: 0.030078
+At Rank: 67 Density field is created and time taken: 0.023904
+At Rank: 33 Density field is created and time taken: 0.024743
+At Rank: 95 Density field is created and time taken: 0.024931
+At Rank: 46 Density field is created and time taken: 0.030168
+At Rank: 66 Density field is created and time taken: 0.024251
+At Rank: 35 Density field is created and time taken: 0.024748
+At Rank: 15 Density field is created and time taken: 0.025308
+At Rank: 90 Density field is created and time taken: 0.025239
+At Rank: 45 Density field is created and time taken: 0.030168
+At Rank: 19 Density field is created and time taken: 0.024226
+At Rank: 34 Density field is created and time taken: 0.024744
+At Rank: 77 Density field is created and time taken: 0.025785
+At Rank: 47 Density field is created and time taken: 0.030162
+At Rank: 20 Density field is created and time taken: 0.024216
+At Rank: 79 Density field is created and time taken: 0.026069
+At Rank: 63 Density field is created and time taken: 0.025924
+At Rank: 42 Density field is created and time taken: 0.030697
+At Rank: 22 Density field is created and time taken: 0.024281
+At Rank: 12 Density field is created and time taken: 0.025711
+At Rank: 23 Density field is created and time taken: 0.024283
+At Rank: 7 Density field is created and time taken: 0.024643
+At Rank: 83 Density field is created and time taken: 0.026153
+At Rank: 76 Density field is created and time taken: 0.025783
+At Rank: 21 Density field is created and time taken: 0.024263
+At Rank: 18 Density field is created and time taken: 0.024488
+At Rank: 55 Density field is created and time taken: 0.025302
+At Rank: 9 Density field is created and time taken: 0.024649
+At Rank: 62 Density field is created and time taken: 0.025919
+At Rank: 81 Density field is created and time taken: 0.026138
+At Rank: 50 Density field is created and time taken: 0.023746
+At Rank: 74 Density field is created and time taken: 0.025795
+At Rank: 1 Density field is created and time taken: 0.022396
+At Rank: 85 Density field is created and time taken: 0.026367
+At Rank: 59 Density field is created and time taken: 0.025305
+At Rank: 11 Density field is created and time taken: 0.024652
+At Rank: 49 Density field is created and time taken: 0.023751
+At Rank: 30 Density field is created and time taken: 0.025289
+At Rank: 73 Density field is created and time taken: 0.025793
+At Rank: 58 Density field is created and time taken: 0.025304
+At Rank: 5 Density field is created and time taken: 0.022358
+At Rank: 8 Density field is created and time taken: 0.024652
+At Rank: 82 Density field is created and time taken: 0.026137
+At Rank: 60 Density field is created and time taken: 0.026001
+At Rank: 57 Density field is created and time taken: 0.025303
+At Rank: 51 Density field is created and time taken: 0.023831
+At Rank: 10 Density field is created and time taken: 0.024639
+At Rank: 75 Density field is created and time taken: 0.02578
+At Rank: 80 Density field is created and time taken: 0.026146
+At Rank: 3 Density field is created and time taken: 0.022356
+At Rank: 56 Density field is created and time taken: 0.025302
+At Rank: 78 Density field is created and time taken: 0.026529
+At Rank: 65 Density field is created and time taken: 0.025925
+At Rank: 52 Density field is created and time taken: 0.023826
+At Rank: 54 Density field is created and time taken: 0.025796
+At Rank: 4 Density field is created and time taken: 0.022356
+At Rank: 6 Density field is created and time taken: 0.025225
+At Rank: 89 Density field is created and time taken: 0.026364
+At Rank: 53 Density field is created and time taken: 0.023831
+At Rank: 72 Density field is created and time taken: 0.025967
+At Rank: 2 Density field is created and time taken: 0.022447
+At Rank: 64 Density field is created and time taken: 0.025925
+At Rank: 26 Density field is created and time taken: 0.022998
+At Rank: 87 Density field is created and time taken: 0.026368
+At Rank: 28 Density field is created and time taken: 0.022948
+At Rank: 61 Density field is created and time taken: 0.025918
+At Rank: 48 Density field is created and time taken: 0.024625
+At Rank: 29 Density field is created and time taken: 0.022962
+At Rank: 86 Density field is created and time taken: 0.026368
+At Rank: 25 Density field is created and time taken: 0.023029
+At Rank: 88 Density field is created and time taken: 0.026368
+At Rank: 27 Density field is created and time taken: 0.022925
+At Rank: 84 Density field is created and time taken: 0.026687
+At Rank: 37 Density field is created and time taken: 0.009798
+At Rank: 38 Density field is created and time taken: 0.009822
+At Rank: 39 Density field is created and time taken: 0.009942
+At Rank: 40 Density field is created and time taken: 0.009945
+At Rank: 0 Density field is created and time taken: 0.005253
+At Rank: 41 Density field is created and time taken: 0.009947
+At Rank: 36 Density field is created and time taken: 0.010489
+At Rank: 24 Density field is created and time taken: 0.011178
+Final Slic itereration num: 50 and final epsilon: 13.52671478
+Slic is done and time taken: 48.850884
+similarity field is generated and time taken: 0.070581
+total time: 48.992046
+Catalyst CoProcess complete (49.77024837 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25005: from old_time 1.247877738 to new time 1.247927738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.331082888  0.2377112523  0.981091089  480.0372816
+   max(abs(gpx/gpy/gpz))  = 28173.69284  6217.78826  23665.69785
+Min and Max of ep_g 0.3661938052 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.403275677  0.2547859635  0.9941993209  480.0528894
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.331004058  0.2377698001  0.9809499081  480.0528894
+   max(abs(gpx/gpy/gpz))  = 28159.78948  6229.148906  23574.05681
+Min and Max of ep_g 0.3661938052 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.403108983  0.2548253215  0.9941529172  480.1162115
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.597558503
+   Time per 54 particle steps 3.986191391
+   Coupling time per step   0.494237238
+   Time per step        5.077025415
+  Writing plotfile high_freq_plt/fcc25005 at time 1.247927738
+Catalyst Begin CoProcess...
+( 258.813s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45097
+( 258.813s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60743
+( 258.813s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29855
+( 258.813s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48556
+( 258.813s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40587
+( 258.813s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37238
+( 258.110s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66473
+( 258.110s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41740
+( 258.110s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35121
+( 258.110s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37737
+( 258.110s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38026
+( 258.110s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46581
+( 258.852s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46268
+( 258.852s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27237
+( 258.852s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30146
+( 258.852s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55584
+( 258.852s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 62014
+( 258.129s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38445
+( 258.752s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44917
+( 258.129s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51305
+( 258.129s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26606
+( 258.752s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52614
+( 258.130s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46027
+( 258.752s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42408
+( 258.130s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36889
+( 258.752s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42228
+( 258.130s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38311
+( 258.752s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47307
+( 258.565s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23127
+( 258.849s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52380
+( 258.565s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49871
+( 258.849s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25534
+( 258.565s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47483
+( 258.589s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47307
+( 258.849s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 58983
+( 258.565s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50372
+( 258.589s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46909
+( 258.849s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51339
+( 258.587s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41815
+( 258.565s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29934
+( 258.754s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35326
+( 258.589s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46386
+( 258.849s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56073
+( 258.565s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31151
+( 258.587s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31441
+( 258.589s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43455
+( 258.849s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51810
+( 258.587s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45590
+( 258.589s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44139
+( 258.851s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45507
+( 258.589s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42706
+( 258.851s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43333
+( 258.587s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53697
+( 258.855s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23588
+( 258.851s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29103
+( 258.587s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26730
+( 258.851s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35467
+( 258.587s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50368
+( 258.851s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64766
+( 258.617s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25771
+( 258.851s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30670
+( 258.919s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48664
+( 258.846s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29263
+( 258.588s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51716
+( 258.919s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31023
+( 258.852s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 34030
+( 258.617s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71785
+( 258.847s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62614
+( 258.919s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51557
+( 258.852s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34567
+( 258.847s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55403
+( 258.588s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 29015
+( 258.919s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67326
+( 258.852s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51006
+( 258.617s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51612
+( 258.847s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42214
+( 258.919s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51401
+( 258.852s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44854
+( 258.847s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30880
+( 258.919s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39251
+( 258.588s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49606
+( 258.852s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38232
+( 258.565s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43842
+( 258.617s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48496
+( 258.852s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56025
+( 258.565s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45217
+( 258.588s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37762
+( 258.565s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68035
+( 258.617s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53481
+( 258.565s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24903
+( 258.588s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56140
+( 258.565s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23442
+( 258.617s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37050
+( 258.565s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24570
+( 258.588s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54117
+( 258.853s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44194
+At Rank: 91 Density field is created and time taken: 0.010763
+At Rank: 14 Density field is created and time taken: 0.012027
+At Rank: 68 Density field is created and time taken: 0.010248
+At Rank: 93 Density field is created and time taken: 0.010793
+At Rank: 15 Density field is created and time taken: 0.012222
+At Rank: 71 Density field is created and time taken: 0.010252
+At Rank: 95 Density field is created and time taken: 0.010794
+At Rank: 33 Density field is created and time taken: 0.009387
+At Rank: 16 Density field is created and time taken: 0.012222
+At Rank: 47 Density field is created and time taken: 0.015736
+At Rank: 70 Density field is created and time taken: 0.010249
+At Rank: 94 Density field is created and time taken: 0.010793
+At Rank: 31 Density field is created and time taken: 0.009384
+At Rank: 44 Density field is created and time taken: 0.015646
+At Rank: 69 Density field is created and time taken: 0.01025
+At Rank: 92 Density field is created and time taken: 0.010717
+At Rank: 34 Density field is created and time taken: 0.009392
+At Rank: 13 Density field is created and time taken: 0.012008
+At Rank: 46 Density field is created and time taken: 0.015744
+At Rank: 90 Density field is created and time taken: 0.011211
+At Rank: 17 Density field is created and time taken: 0.01222
+At Rank: 19 Density field is created and time taken: 0.016473
+At Rank: 32 Density field is created and time taken: 0.009388
+At Rank: 45 Density field is created and time taken: 0.015744
+At Rank: 67 Density field is created and time taken: 0.010211
+At Rank: 74 Density field is created and time taken: 0.012376
+At Rank: 35 Density field is created and time taken: 0.009394
+At Rank: 43 Density field is created and time taken: 0.015661
+At Rank: 79 Density field is created and time taken: 0.011184
+At Rank: 21 Density field is created and time taken: 0.016545
+At Rank: 12 Density field is created and time taken: 0.012355
+At Rank: 42 Density field is created and time taken: 0.015925
+At Rank: 66 Density field is created and time taken: 0.010549
+At Rank: 61 Density field is created and time taken: 0.010538
+At Rank: 81 Density field is created and time taken: 0.011343
+At Rank: 76 Density field is created and time taken: 0.012372
+At Rank: 22 Density field is created and time taken: 0.016559
+At Rank: 23 Density field is created and time taken: 0.016567
+At Rank: 7 Density field is created and time taken: 0.009842
+At Rank: 80 Density field is created and time taken: 0.011255
+At Rank: 20 Density field is created and time taken: 0.016484
+At Rank: 75 Density field is created and time taken: 0.012372
+At Rank: 18 Density field is created and time taken: 0.016814
+At Rank: 55 Density field is created and time taken: 0.010241
+At Rank: 63 Density field is created and time taken: 0.010509
+At Rank: 8 Density field is created and time taken: 0.009873
+At Rank: 49 Density field is created and time taken: 0.013583
+At Rank: 82 Density field is created and time taken: 0.011335
+At Rank: 1 Density field is created and time taken: 0.009717
+At Rank: 77 Density field is created and time taken: 0.012378
+At Rank: 58 Density field is created and time taken: 0.010278
+At Rank: 10 Density field is created and time taken: 0.009793
+At Rank: 83 Density field is created and time taken: 0.011349
+At Rank: 53 Density field is created and time taken: 0.013677
+At Rank: 5 Density field is created and time taken: 0.009842
+At Rank: 62 Density field is created and time taken: 0.010539
+At Rank: 56 Density field is created and time taken: 0.010241
+At Rank: 11 Density field is created and time taken: 0.009794
+At Rank: 73 Density field is created and time taken: 0.012375
+At Rank: 85 Density field is created and time taken: 0.01022
+At Rank: 51 Density field is created and time taken: 0.013676
+At Rank: 78 Density field is created and time taken: 0.011548
+At Rank: 57 Density field is created and time taken: 0.010278
+At Rank: 2 Density field is created and time taken: 0.009979
+At Rank: 9 Density field is created and time taken: 0.009792
+At Rank: 30 Density field is created and time taken: 0.009997
+At Rank: 59 Density field is created and time taken: 0.010282
+At Rank: 50 Density field is created and time taken: 0.013574
+At Rank: 4 Density field is created and time taken: 0.009828
+At Rank: 6 Density field is created and time taken: 0.010386
+At Rank: 64 Density field is created and time taken: 0.010511
+At Rank: 54 Density field is created and time taken: 0.010859
+At Rank: 72 Density field is created and time taken: 0.011064
+At Rank: 52 Density field is created and time taken: 0.013668
+At Rank: 3 Density field is created and time taken: 0.009832
+At Rank: 65 Density field is created and time taken: 0.010513
+At Rank: 25 Density field is created and time taken: 0.010131
+At Rank: 88 Density field is created and time taken: 0.010223
+At Rank: 26 Density field is created and time taken: 0.010122
+At Rank: 60 Density field is created and time taken: 0.01077
+At Rank: 27 Density field is created and time taken: 0.010063
+At Rank: 86 Density field is created and time taken: 0.010223
+At Rank: 48 Density field is created and time taken: 0.011268
+At Rank: 28 Density field is created and time taken: 0.010093
+At Rank: 89 Density field is created and time taken: 0.010223
+At Rank: 29 Density field is created and time taken: 0.0101
+At Rank: 87 Density field is created and time taken: 0.010223
+At Rank: 84 Density field is created and time taken: 0.010388
+At Rank: 38 Density field is created and time taken: 0.010778
+At Rank: 37 Density field is created and time taken: 0.010728
+At Rank: 41 Density field is created and time taken: 0.010708
+At Rank: 40 Density field is created and time taken: 0.010702
+At Rank: 39 Density field is created and time taken: 0.010704
+At Rank: 36 Density field is created and time taken: 0.011483
+At Rank: 0 Density field is created and time taken: 0.005369
+At Rank: 24 Density field is created and time taken: 0.011246
+Final Slic itereration num: 50 and final epsilon: 13.38240501
+Slic is done and time taken: 48.894562
+similarity field is generated and time taken: 0.071024
+total time: 49.03661
+Catalyst CoProcess complete (49.82636119 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25006: from old_time 1.247927738 to new time 1.247977738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.333566128  0.2374351122  0.9810294839  480.1162115
+   max(abs(gpx/gpy/gpz))  = 28148.86483  6233.895621  23520.43543
+Min and Max of ep_g 0.3661922998 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.40574283  0.2543758325  0.9943115617  480.0532003
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.333441604  0.2374967298  0.9808864525  480.0532003
+   max(abs(gpx/gpy/gpz))  = 28105.26506  6246.130756  23403.95748
+Min and Max of ep_g 0.3661922998 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.405536708  0.25441517  0.9942649381  480.0701381
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.600492085
+   Time per 54 particle steps 3.988132685
+   Coupling time per step   0.495215021
+   Time per step        5.082861911
+  Writing plotfile high_freq_plt/fcc25006 at time 1.247977738
+Catalyst Begin CoProcess...
+( 314.048s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52389
+( 314.048s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 58999
+( 314.048s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25518
+( 314.048s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56076
+( 314.048s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51783
+( 314.048s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51336
+( 314.051s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29269
+( 314.051s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62618
+( 314.051s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42209
+( 314.051s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55412
+( 314.051s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30921
+( 314.058s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64783
+( 313.339s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38397
+( 314.058s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35459
+( 313.339s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36886
+( 314.058s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43333
+( 313.797s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42704
+( 313.339s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46064
+( 314.058s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30682
+( 313.797s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46907
+( 313.339s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51303
+( 314.058s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45516
+( 313.797s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44145
+( 313.774s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50364
+( 313.339s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26597
+( 314.058s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29105
+( 313.797s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43447
+( 313.774s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31147
+( 313.339s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38306
+( 314.059s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44843
+( 313.797s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46387
+( 313.774s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49885
+( 313.796s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53700
+( 314.059s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 34043
+( 313.797s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47310
+( 313.774s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23124
+( 313.796s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26703
+( 314.059s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51002
+( 313.774s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47460
+( 313.796s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50357
+( 314.059s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38224
+( 313.774s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29927
+( 313.796s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41822
+( 314.030s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40581
+( 314.059s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56037
+( 313.326s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35124
+( 314.030s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37269
+( 314.059s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34548
+( 313.796s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31444
+( 313.326s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41764
+( 314.030s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60778
+( 314.127s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31036
+( 313.796s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45545
+( 313.796s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37747
+( 313.326s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46583
+( 314.030s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45094
+( 314.127s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51558
+( 313.796s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 29038
+( 313.326s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66484
+( 314.030s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48530
+( 314.127s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48669
+( 313.796s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56143
+( 313.326s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37733
+( 314.030s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29836
+( 314.127s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51407
+( 313.796s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54116
+( 313.326s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38032
+( 314.127s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67332
+( 313.796s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51701
+( 314.127s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39254
+( 313.796s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49619
+( 313.827s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25789
+( 313.827s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53472
+( 314.065s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27248
+( 313.827s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71794
+( 314.065s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 62011
+( 313.827s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48464
+( 314.065s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46277
+( 313.827s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51599
+( 314.065s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30148
+( 313.827s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37060
+( 314.065s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23579
+( 313.964s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44919
+( 314.065s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55562
+( 313.775s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23441
+( 313.964s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35346
+( 313.774s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24895
+( 313.964s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47304
+( 313.775s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68022
+( 313.964s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42246
+( 313.774s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43836
+( 313.964s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42399
+( 313.774s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45210
+( 313.964s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52651
+( 313.776s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24562
+( 314.063s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44186
+At Rank: 93 Density field is created and time taken: 0.011765
+At Rank: 14 Density field is created and time taken: 0.012898
+At Rank: 95 Density field is created and time taken: 0.011765
+At Rank: 68 Density field is created and time taken: 0.01253
+At Rank: 32 Density field is created and time taken: 0.012342
+At Rank: 92 Density field is created and time taken: 0.011732
+At Rank: 13 Density field is created and time taken: 0.012907
+At Rank: 44 Density field is created and time taken: 0.009539
+At Rank: 69 Density field is created and time taken: 0.012546
+At Rank: 31 Density field is created and time taken: 0.012307
+At Rank: 91 Density field is created and time taken: 0.011759
+At Rank: 17 Density field is created and time taken: 0.012946
+At Rank: 46 Density field is created and time taken: 0.00962
+At Rank: 70 Density field is created and time taken: 0.012536
+At Rank: 35 Density field is created and time taken: 0.012302
+At Rank: 94 Density field is created and time taken: 0.011765
+At Rank: 16 Density field is created and time taken: 0.012946
+At Rank: 43 Density field is created and time taken: 0.009556
+At Rank: 33 Density field is created and time taken: 0.012298
+At Rank: 73 Density field is created and time taken: 0.01055
+At Rank: 20 Density field is created and time taken: 0.009847
+At Rank: 90 Density field is created and time taken: 0.012298
+At Rank: 47 Density field is created and time taken: 0.009614
+At Rank: 67 Density field is created and time taken: 0.012491
+At Rank: 34 Density field is created and time taken: 0.012298
+At Rank: 15 Density field is created and time taken: 0.012946
+At Rank: 45 Density field is created and time taken: 0.00962
+At Rank: 21 Density field is created and time taken: 0.009927
+At Rank: 30 Density field is created and time taken: 0.012673
+At Rank: 12 Density field is created and time taken: 0.013042
+At Rank: 42 Density field is created and time taken: 0.009708
+At Rank: 71 Density field is created and time taken: 0.012547
+At Rank: 79 Density field is created and time taken: 0.02333
+At Rank: 74 Density field is created and time taken: 0.010545
+At Rank: 19 Density field is created and time taken: 0.009878
+At Rank: 7 Density field is created and time taken: 0.011615
+At Rank: 66 Density field is created and time taken: 0.013023
+At Rank: 61 Density field is created and time taken: 0.012341
+At Rank: 75 Density field is created and time taken: 0.010508
+At Rank: 23 Density field is created and time taken: 0.009939
+At Rank: 80 Density field is created and time taken: 0.023347
+At Rank: 1 Density field is created and time taken: 0.015913
+At Rank: 11 Density field is created and time taken: 0.011641
+At Rank: 22 Density field is created and time taken: 0.009938
+At Rank: 55 Density field is created and time taken: 0.013649
+At Rank: 18 Density field is created and time taken: 0.01002
+At Rank: 81 Density field is created and time taken: 0.023423
+At Rank: 76 Density field is created and time taken: 0.010507
+At Rank: 9 Density field is created and time taken: 0.011639
+At Rank: 5 Density field is created and time taken: 0.015859
+At Rank: 65 Density field is created and time taken: 0.012346
+At Rank: 56 Density field is created and time taken: 0.01365
+At Rank: 82 Density field is created and time taken: 0.023411
+At Rank: 77 Density field is created and time taken: 0.010512
+At Rank: 8 Density field is created and time taken: 0.011641
+At Rank: 2 Density field is created and time taken: 0.015923
+At Rank: 62 Density field is created and time taken: 0.012343
+At Rank: 59 Density field is created and time taken: 0.013572
+At Rank: 49 Density field is created and time taken: 0.011291
+At Rank: 83 Density field is created and time taken: 0.02343
+At Rank: 85 Density field is created and time taken: 0.012175
+At Rank: 10 Density field is created and time taken: 0.011636
+At Rank: 4 Density field is created and time taken: 0.015853
+At Rank: 57 Density field is created and time taken: 0.013569
+At Rank: 78 Density field is created and time taken: 0.023741
+At Rank: 50 Density field is created and time taken: 0.011256
+At Rank: 25 Density field is created and time taken: 0.01113
+At Rank: 58 Density field is created and time taken: 0.013571
+At Rank: 6 Density field is created and time taken: 0.012256
+At Rank: 54 Density field is created and time taken: 0.014256
+At Rank: 3 Density field is created and time taken: 0.015857
+At Rank: 63 Density field is created and time taken: 0.012341
+At Rank: 53 Density field is created and time taken: 0.011367
+At Rank: 28 Density field is created and time taken: 0.01104
+At Rank: 64 Density field is created and time taken: 0.012349
+At Rank: 52 Density field is created and time taken: 0.011351
+At Rank: 26 Density field is created and time taken: 0.011098
+At Rank: 60 Density field is created and time taken: 0.012671
+At Rank: 51 Density field is created and time taken: 0.011365
+At Rank: 87 Density field is created and time taken: 0.012167
+At Rank: 29 Density field is created and time taken: 0.011058
+At Rank: 86 Density field is created and time taken: 0.012177
+At Rank: 72 Density field is created and time taken: 0.0114
+At Rank: 27 Density field is created and time taken: 0.011028
+At Rank: 88 Density field is created and time taken: 0.012175
+At Rank: 89 Density field is created and time taken: 0.012175
+At Rank: 84 Density field is created and time taken: 0.012409
+At Rank: 48 Density field is created and time taken: 0.012252
+At Rank: 39 Density field is created and time taken: 0.011963
+At Rank: 40 Density field is created and time taken: 0.011959
+At Rank: 37 Density field is created and time taken: 0.011953
+At Rank: 0 Density field is created and time taken: 0.005065
+At Rank: 38 Density field is created and time taken: 0.012007
+At Rank: 24 Density field is created and time taken: 0.011041
+At Rank: 41 Density field is created and time taken: 0.011967
+At Rank: 36 Density field is created and time taken: 0.012287
+Final Slic itereration num: 50 and final epsilon: 13.46785773
+Slic is done and time taken: 48.886685
+similarity field is generated and time taken: 0.070582
+total time: 49.027849
+Catalyst CoProcess complete (49.78212253 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25007: from old_time 1.247977738 to new time 1.248027738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.339788749  0.2371611387  0.9808832414  480.0701381
+   max(abs(gpx/gpy/gpz))  = 28072.03003  6251.411911  23333.09219
+Min and Max of ep_g 0.3661919379 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.408281748  0.2539689233  0.994303017  480.1376374
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.339285107  0.2372217551  0.9807341395  480.1376374
+   max(abs(gpx/gpy/gpz))  = 28036.2709  6260.063531  23232.83794
+Min and Max of ep_g 0.3661919379 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.408054087  0.2540070743  0.994250501  480.1654234
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.600414521
+   Time per 54 particle steps 3.98856946
+   Coupling time per step   0.4930618
+   Time per step        5.081119246
+  Writing plotfile high_freq_plt/fcc25007 at time 1.248027738
+Catalyst Begin CoProcess...
+( 368.773s) [pvbatch.25      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 25 number of points: 24880
+( 368.773s) [pvbatch.26      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 26 number of points: 43821
+( 368.773s) [pvbatch.28      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 28 number of points: 45197
+( 368.773s) [pvbatch.27      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 27 number of points: 68015
+( 368.773s) [pvbatch.29      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 29 number of points: 23439
+( 369.088s) [pvbatch.53      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 53 number of points: 46279
+( 369.088s) [pvbatch.51      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 51 number of points: 27268
+( 369.088s) [pvbatch.52      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 52 number of points: 62037
+( 369.088s) [pvbatch.50      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 50 number of points: 30144
+( 369.088s) [pvbatch.49      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 49 number of points: 55555
+( 368.367s) [pvbatch.16      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 16 number of points: 26587
+( 368.989s) [pvbatch.73      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 73 number of points: 44914
+( 368.367s) [pvbatch.15      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 15 number of points: 38356
+( 368.989s) [pvbatch.74      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 74 number of points: 47301
+( 368.823s) [pvbatch.63      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 63 number of points: 53695
+( 368.367s) [pvbatch.17      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 17 number of points: 51305
+( 368.989s) [pvbatch.76      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 76 number of points: 42265
+( 369.087s) [pvbatch.55      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 55 number of points: 35463
+( 368.823s) [pvbatch.62      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 62 number of points: 41816
+( 369.087s) [pvbatch.54      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 54 number of points: 64808
+( 368.367s) [pvbatch.14      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 14 number of points: 36877
+( 368.989s) [pvbatch.75      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 75 number of points: 42366
+( 369.087s) [pvbatch.57      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 57 number of points: 43335
+( 369.087s) [pvbatch.58      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 58 number of points: 45519
+( 368.989s) [pvbatch.77      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 77 number of points: 52687
+( 369.087s) [pvbatch.56      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 56 number of points: 30680
+( 368.823s) [pvbatch.61      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 61 number of points: 45511
+( 368.367s) [pvbatch.13      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 13 number of points: 38302
+( 369.087s) [pvbatch.59      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 59 number of points: 29113
+( 369.087s) [pvbatch.80      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 80 number of points: 56079
+( 368.823s) [pvbatch.64      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 64 number of points: 26689
+( 368.367s) [pvbatch.12      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 12 number of points: 46114
+( 368.827s) [pvbatch.67      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 67 number of points: 43461
+( 368.803s) [pvbatch.91      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 91 number of points: 31151
+( 369.087s) [pvbatch.78      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 78 number of points: 51751
+( 368.823s) [pvbatch.60      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 60 number of points: 31441
+( 368.827s) [pvbatch.66      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 66 number of points: 47332
+( 368.803s) [pvbatch.93      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 93 number of points: 23120
+( 369.087s) [pvbatch.82      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 82 number of points: 59032
+( 368.823s) [pvbatch.65      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 65 number of points: 50351
+( 368.827s) [pvbatch.68      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 68 number of points: 44153
+( 368.803s) [pvbatch.90      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 90 number of points: 29927
+( 369.087s) [pvbatch.81      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 81 number of points: 52396
+( 368.353s) [pvbatch.45      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 45 number of points: 35128
+( 368.854s) [pvbatch.38      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 38 number of points: 48430
+( 368.827s) [pvbatch.70      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 70 number of points: 46377
+( 368.803s) [pvbatch.95      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 95 number of points: 47449
+( 369.087s) [pvbatch.79      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 79 number of points: 51365
+( 368.353s) [pvbatch.47      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 47 number of points: 66479
+( 368.854s) [pvbatch.39      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 39 number of points: 51584
+( 368.827s) [pvbatch.69      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 69 number of points: 42714
+( 368.803s) [pvbatch.92      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 92 number of points: 50335
+( 369.087s) [pvbatch.83      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 83 number of points: 25508
+( 368.353s) [pvbatch.46      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 46 number of points: 38022
+( 368.854s) [pvbatch.40      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 40 number of points: 37066
+( 368.827s) [pvbatch.71      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 71 number of points: 46896
+( 368.803s) [pvbatch.94      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 94 number of points: 49874
+( 369.089s) [pvbatch.30      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 30 number of points: 44821
+( 368.354s) [pvbatch.42      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 42 number of points: 46560
+( 368.854s) [pvbatch.37      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 37 number of points: 71805
+( 369.059s) [pvbatch.20      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 20 number of points: 37290
+( 369.089s) [pvbatch.35      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 35 number of points: 56023
+( 368.354s) [pvbatch.43      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 43 number of points: 37729
+( 368.854s) [pvbatch.36      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 36 number of points: 25805
+( 369.059s) [pvbatch.18      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 18 number of points: 48521
+( 369.089s) [pvbatch.32      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 32 number of points: 38211
+( 368.354s) [pvbatch.44      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 44 number of points: 41786
+( 368.854s) [pvbatch.41      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 41 number of points: 53470
+( 369.059s) [pvbatch.19      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 19 number of points: 40576
+( 369.089s) [pvbatch.33      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 33 number of points: 34535
+( 369.092s) [pvbatch.48      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 48 number of points: 23584
+( 369.059s) [pvbatch.22      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 22 number of points: 45088
+( 369.089s) [pvbatch.31      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 31 number of points: 34067
+( 369.084s) [pvbatch.2       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 2 number of points: 29267
+( 369.059s) [pvbatch.23      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 23 number of points: 29820
+( 369.089s) [pvbatch.34      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 34 number of points: 51022
+( 369.084s) [pvbatch.1       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 1 number of points: 30939
+( 369.059s) [pvbatch.21      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 21 number of points: 60800
+( 369.157s) [pvbatch.7       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 7 number of points: 48664
+( 369.084s) [pvbatch.4       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 4 number of points: 62626
+( 369.157s) [pvbatch.8       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 8 number of points: 51536
+( 369.084s) [pvbatch.5       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 5 number of points: 42207
+( 369.157s) [pvbatch.10      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 10 number of points: 67351
+( 369.084s) [pvbatch.3       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 3 number of points: 55441
+( 369.157s) [pvbatch.9       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 9 number of points: 39266
+( 368.803s) [pvbatch.24      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 24 number of points: 24548
+( 369.157s) [pvbatch.6       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 6 number of points: 31026
+( 368.993s) [pvbatch.72      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 72 number of points: 35366
+( 369.157s) [pvbatch.11      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 11 number of points: 51393
+( 368.827s) [pvbatch.88      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 88 number of points: 54135
+( 368.827s) [pvbatch.89      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 89 number of points: 56147
+( 368.827s) [pvbatch.87      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 87 number of points: 29055
+( 368.827s) [pvbatch.85      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 85 number of points: 49634
+( 368.827s) [pvbatch.86      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 86 number of points: 51683
+( 368.827s) [pvbatch.84      ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 84 number of points: 37739
+( 369.089s) [pvbatch.0       ]vtkmFeatureAnalysis.cxx:102   INFO| rank: 0 number of points: 44189
+At Rank: 91 Density field is created and time taken: 0.009114
+At Rank: 67 Density field is created and time taken: 0.00912
+At Rank: 93 Density field is created and time taken: 0.009117
+At Rank: 13 Density field is created and time taken: 0.011582
+At Rank: 94 Density field is created and time taken: 0.009115
+At Rank: 14 Density field is created and time taken: 0.011584
+At Rank: 44 Density field is created and time taken: 0.008494
+At Rank: 68 Density field is created and time taken: 0.009124
+At Rank: 31 Density field is created and time taken: 0.008918
+At Rank: 95 Density field is created and time taken: 0.009115
+At Rank: 43 Density field is created and time taken: 0.008513
+At Rank: 69 Density field is created and time taken: 0.008966
+At Rank: 33 Density field is created and time taken: 0.008956
+At Rank: 16 Density field is created and time taken: 0.011713
+At Rank: 92 Density field is created and time taken: 0.009066
+At Rank: 73 Density field is created and time taken: 0.011751
+At Rank: 45 Density field is created and time taken: 0.008614
+At Rank: 70 Density field is created and time taken: 0.008954
+At Rank: 34 Density field is created and time taken: 0.008956
+At Rank: 90 Density field is created and time taken: 0.009263
+At Rank: 46 Density field is created and time taken: 0.008614
+At Rank: 35 Density field is created and time taken: 0.008957
+At Rank: 17 Density field is created and time taken: 0.011713
+At Rank: 19 Density field is created and time taken: 0.00776
+At Rank: 47 Density field is created and time taken: 0.0086
+At Rank: 71 Density field is created and time taken: 0.008971
+At Rank: 30 Density field is created and time taken: 0.009084
+At Rank: 74 Density field is created and time taken: 0.011742
+At Rank: 42 Density field is created and time taken: 0.008887
+At Rank: 32 Density field is created and time taken: 0.008951
+At Rank: 23 Density field is created and time taken: 0.007797
+At Rank: 1 Density field is created and time taken: 0.008997
+At Rank: 66 Density field is created and time taken: 0.009444
+At Rank: 15 Density field is created and time taken: 0.011714
+At Rank: 79 Density field is created and time taken: 0.010189
+At Rank: 22 Density field is created and time taken: 0.007789
+At Rank: 7 Density field is created and time taken: 0.008699
+At Rank: 4 Density field is created and time taken: 0.008929
+At Rank: 20 Density field is created and time taken: 0.007822
+At Rank: 12 Density field is created and time taken: 0.011724
+At Rank: 81 Density field is created and time taken: 0.010252
+At Rank: 50 Density field is created and time taken: 0.014
+At Rank: 21 Density field is created and time taken: 0.007778
+At Rank: 9 Density field is created and time taken: 0.008682
+At Rank: 18 Density field is created and time taken: 0.007938
+At Rank: 82 Density field is created and time taken: 0.010252
+At Rank: 8 Density field is created and time taken: 0.008736
+At Rank: 3 Density field is created and time taken: 0.00893
+At Rank: 61 Density field is created and time taken: 0.011984
+At Rank: 49 Density field is created and time taken: 0.013925
+At Rank: 77 Density field is created and time taken: 0.011761
+At Rank: 83 Density field is created and time taken: 0.010274
+At Rank: 11 Density field is created and time taken: 0.008689
+At Rank: 80 Density field is created and time taken: 0.010264
+At Rank: 5 Density field is created and time taken: 0.008934
+At Rank: 10 Density field is created and time taken: 0.008682
+At Rank: 65 Density field is created and time taken: 0.01197
+At Rank: 53 Density field is created and time taken: 0.014068
+At Rank: 56 Density field is created and time taken: 0.011673
+At Rank: 76 Density field is created and time taken: 0.011758
+At Rank: 78 Density field is created and time taken: 0.010755
+At Rank: 6 Density field is created and time taken: 0.008976
+At Rank: 55 Density field is created and time taken: 0.011669
+At Rank: 2 Density field is created and time taken: 0.009027
+At Rank: 57 Density field is created and time taken: 0.011621
+At Rank: 52 Density field is created and time taken: 0.01406
+At Rank: 75 Density field is created and time taken: 0.011756
+At Rank: 59 Density field is created and time taken: 0.011625
+At Rank: 62 Density field is created and time taken: 0.011985
+At Rank: 58 Density field is created and time taken: 0.011621
+At Rank: 54 Density field is created and time taken: 0.012174
+At Rank: 51 Density field is created and time taken: 0.014066
+At Rank: 25 Density field is created and time taken: 0.038698
+At Rank: 85 Density field is created and time taken: 0.008048
+At Rank: 64 Density field is created and time taken: 0.011972
+At Rank: 26 Density field is created and time taken: 0.038698
+At Rank: 27 Density field is created and time taken: 0.038544
+At Rank: 87 Density field is created and time taken: 0.00804
+At Rank: 63 Density field is created and time taken: 0.01197
+At Rank: 28 Density field is created and time taken: 0.038575
+At Rank: 29 Density field is created and time taken: 0.03858
+At Rank: 89 Density field is created and time taken: 0.008041
+At Rank: 60 Density field is created and time taken: 0.01227
+At Rank: 72 Density field is created and time taken: 0.009295
+At Rank: 48 Density field is created and time taken: 0.010994
+At Rank: 86 Density field is created and time taken: 0.008065
+At Rank: 88 Density field is created and time taken: 0.00804
+At Rank: 84 Density field is created and time taken: 0.008621
+At Rank: 38 Density field is created and time taken: 0.01132
+At Rank: 37 Density field is created and time taken: 0.011292
+At Rank: 40 Density field is created and time taken: 0.011316
+At Rank: 41 Density field is created and time taken: 0.011318
+At Rank: 39 Density field is created and time taken: 0.011316
+At Rank: 36 Density field is created and time taken: 0.012025
+At Rank: 0 Density field is created and time taken: 0.005307
+At Rank: 24 Density field is created and time taken: 0.010189
+2021-09-08 16:27:38.770 ( 370.250s) [        16EF3950]         TryExecute.cxx:55     ERR| TryExecute encountered an error: ErrorBadValue (Input array to worklet invocation the wrong size.)
+2021-09-08 16:27:38.770 ( 370.250s) [        16EF3950]         TryExecute.cxx:55     ERR| Failing functor: vtkm::worklet::internal::detail::DispatcherBaseTryExecuteFunctor
+2021-09-08 16:27:38.770 ( 370.250s) [        16EF3950]         TryExecute.cxx:55     ERR| Failing device: Serial
+terminate called after throwing an instance of 'vtkm::cont::ErrorBadValue'
+  what():  Input array to worklet invocation the wrong size.
+73      0x2000003b4264 __libc_start_main + 180
+72      0x2000003b4078 /lib64/power9/libc.so.6(+0x24078) [0x2000003b4078]
+71          0x10013ce4 /ccs/home/dutta/scratch/MFIX_Catalyst/fcc/mfix_exec_link_vtkm() [0x10013ce4]
+70          0x1002ce18 /ccs/home/dutta/scratch/MFIX_Catalyst/fcc/mfix_exec_link_vtkm() [0x1002ce18]
+69      0x2000006079f0 vtkCPProcessor::CoProcess(vtkCPDataDescription*) + 3056
+68      0x2000005b2964 vtkCPPythonScriptPipeline::CoProcess(vtkCPDataDescription*) + 724
+67      0x20000064cadc vtkPythonInterpreter::RunSimpleString(char const*) + 556
+66      0x20000090985c PyRun_SimpleStringFlags + 92
+65      0x200000909708 PyRun_StringFlags + 408
+64      0x2000008aa65c PyEval_EvalCode + 60
+63      0x2000008aa5e4 PyEval_EvalCodeEx + 100
+62      0x2000008aa46c _PyEval_EvalCodeWithName + 3964
+61      0x2000008a9484 PyEval_EvalFrameEx + 52
+60      0x200000709380 _PyEval_EvalFrameDefault + 32928
+59      0x2000006ffce4 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libpython3.8.so.1.0(+0x7fce4) [0x2000006ffce4]
+58      0x2000008a9484 PyEval_EvalFrameEx + 52
+57      0x20000070591c _PyEval_EvalFrameDefault + 17980
+56      0x2000006ffce4 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libpython3.8.so.1.0(+0x7fce4) [0x2000006ffce4]
+55      0x2000008a9484 PyEval_EvalFrameEx + 52
+54      0x200000709380 _PyEval_EvalFrameDefault + 32928
+53      0x20000074f614 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libpython3.8.so.1.0(+0xcf614) [0x20000074f614]
+52      0x200000748dc8 _PyFunction_Vectorcall + 184
+51      0x2000008aa46c _PyEval_EvalCodeWithName + 3964
+50      0x2000008a9484 PyEval_EvalFrameEx + 52
+49      0x20000070b0f0 _PyEval_EvalFrameDefault + 40464
+48      0x2000007491e0 _PyObject_MakeTpCall + 208
+47      0x20000074c95c PyCFunction_Call + 220
+46      0x2000302615b4 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/superbuild/paraview/build/lib/python3.8/site-packages/paraview/modules/vtkRemotingServerManager.so(+0x3115b4) [0x2000302615b4]
+45      0x20000259893c vtkSMWriterProxy::UpdatePipeline(double) + 236
+44      0x2000024b90bc vtkSMProxy::ExecuteStream(vtkClientServerStream const&, bool, unsigned int) + 268
+43      0x2000023161b4 vtkPVSessionBase::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 100
+42      0x200002318c54 vtkPVSessionCore::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 116
+41      0x200002318ec8 vtkPVSessionCore::ExecuteStreamInternal(vtkClientServerStream const&, bool) + 328
+40      0x200002cc4974 vtkClientServerInterpreter::ProcessStream(vtkClientServerStream const&) + 52
+39      0x200002cc45c0 vtkClientServerInterpreter::ProcessOneMessage(vtkClientServerStream const&, int) + 1488
+38      0x200002cc3cd8 vtkClientServerInterpreter::ProcessCommandInvoke(vtkClientServerStream const&, int) + 1480
+37      0x200002cc34cc vtkClientServerInterpreter::CallCommandFunction(char const*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&) + 524
+36      0x200004392b50 vtkFileSeriesWriterCommand(vtkClientServerInterpreter*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&, void*) + 8928
+35      0x20000a93fc24 vtkFileSeriesWriter::Write() + 148
+34      0x200002f733c4 vtkAlgorithm::Update() + 116
+33      0x20000300cd1c vtkStreamingDemandDrivenPipeline::Update(int) + 44
+32      0x2000030103f4 vtkStreamingDemandDrivenPipeline::Update(int, vtkInformationVector*) + 484
+31      0x200002f8fa64 vtkDemandDrivenPipeline::UpdateData(int) + 212
+30      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+29      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+28      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+27      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+26      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+25      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+24      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+23      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+22      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+21      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+20      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+19      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+18      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+17      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+16      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+15      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+14      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+13      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+12      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+11      0x200002f914ec vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1244
+10      0x200002f83c94 vtkCompositeDataPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 212
+9       0x200002f8d198 vtkDemandDrivenPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 120
+8       0x200002f99424 vtkExecutive::CallAlgorithm(vtkInformation*, int, vtkInformationVector**, vtkInformationVector*) + 132
+7       0x200002fc8678 vtkPolyDataAlgorithm::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 472
+6       0x200010335440 vtkmFeatureAnalysis::RequestData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 2864
+5       0x20001032b670 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0xbb670) [0x20001032b670]
+4       0x20001032932c /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0xb932c) [0x20001032932c]
+3       0x2000103137b8 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0xa37b8) [0x2000103137b8]
+2       0x2000102c41ac /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0x541ac) [0x2000102c41ac]
+1       0x2000102c3964 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0x53964) [0x2000102c3964]
+0       0x2000102c336c /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0x5336c) [0x2000102c336c]
+
+Loguru caught a signal: SIGABRT
+Stack trace:
+80      0x2000003b4264 __libc_start_main + 180
+79      0x2000003b4078 /lib64/power9/libc.so.6(+0x24078) [0x2000003b4078]
+78          0x10013ce4 /ccs/home/dutta/scratch/MFIX_Catalyst/fcc/mfix_exec_link_vtkm() [0x10013ce4]
+77          0x1002ce18 /ccs/home/dutta/scratch/MFIX_Catalyst/fcc/mfix_exec_link_vtkm() [0x1002ce18]
+76      0x2000006079f0 vtkCPProcessor::CoProcess(vtkCPDataDescription*) + 3056
+75      0x2000005b2964 vtkCPPythonScriptPipeline::CoProcess(vtkCPDataDescription*) + 724
+74      0x20000064cadc vtkPythonInterpreter::RunSimpleString(char const*) + 556
+73      0x20000090985c PyRun_SimpleStringFlags + 92
+72      0x200000909708 PyRun_StringFlags + 408
+71      0x2000008aa65c PyEval_EvalCode + 60
+70      0x2000008aa5e4 PyEval_EvalCodeEx + 100
+69      0x2000008aa46c _PyEval_EvalCodeWithName + 3964
+68      0x2000008a9484 PyEval_EvalFrameEx + 52
+67      0x200000709380 _PyEval_EvalFrameDefault + 32928
+66      0x2000006ffce4 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libpython3.8.so.1.0(+0x7fce4) [0x2000006ffce4]
+65      0x2000008a9484 PyEval_EvalFrameEx + 52
+64      0x20000070591c _PyEval_EvalFrameDefault + 17980
+63      0x2000006ffce4 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libpython3.8.so.1.0(+0x7fce4) [0x2000006ffce4]
+62      0x2000008a9484 PyEval_EvalFrameEx + 52
+61      0x200000709380 _PyEval_EvalFrameDefault + 32928
+60      0x20000074f614 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libpython3.8.so.1.0(+0xcf614) [0x20000074f614]
+59      0x200000748dc8 _PyFunction_Vectorcall + 184
+58      0x2000008aa46c _PyEval_EvalCodeWithName + 3964
+57      0x2000008a9484 PyEval_EvalFrameEx + 52
+56      0x20000070b0f0 _PyEval_EvalFrameDefault + 40464
+55      0x2000007491e0 _PyObject_MakeTpCall + 208
+54      0x20000074c95c PyCFunction_Call + 220
+53      0x2000302615b4 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/superbuild/paraview/build/lib/python3.8/site-packages/paraview/modules/vtkRemotingServerManager.so(+0x3115b4) [0x2000302615b4]
+52      0x20000259893c vtkSMWriterProxy::UpdatePipeline(double) + 236
+51      0x2000024b90bc vtkSMProxy::ExecuteStream(vtkClientServerStream const&, bool, unsigned int) + 268
+50      0x2000023161b4 vtkPVSessionBase::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 100
+49      0x200002318c54 vtkPVSessionCore::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 116
+48      0x200002318ec8 vtkPVSessionCore::ExecuteStreamInternal(vtkClientServerStream const&, bool) + 328
+47      0x200002cc4974 vtkClientServerInterpreter::ProcessStream(vtkClientServerStream const&) + 52
+46      0x200002cc45c0 vtkClientServerInterpreter::ProcessOneMessage(vtkClientServerStream const&, int) + 1488
+45      0x200002cc3cd8 vtkClientServerInterpreter::ProcessCommandInvoke(vtkClientServerStream const&, int) + 1480
+44      0x200002cc34cc vtkClientServerInterpreter::CallCommandFunction(char const*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&) + 524
+43      0x200004392b50 vtkFileSeriesWriterCommand(vtkClientServerInterpreter*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&, void*) + 8928
+42      0x20000a93fc24 vtkFileSeriesWriter::Write() + 148
+41      0x200002f733c4 vtkAlgorithm::Update() + 116
+40      0x20000300cd1c vtkStreamingDemandDrivenPipeline::Update(int) + 44
+39      0x2000030103f4 vtkStreamingDemandDrivenPipeline::Update(int, vtkInformationVector*) + 484
+38      0x200002f8fa64 vtkDemandDrivenPipeline::UpdateData(int) + 212
+37      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+36      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+35      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+34      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+33      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+32      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+31      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+30      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+29      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+28      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+27      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+26      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+25      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+24      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+23      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+22      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+21      0x200002f91460 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+20      0x200002f81720 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+19      0x20000300e2e8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+18      0x200002f914ec vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1244
+17      0x200002f83c94 vtkCompositeDataPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 212
+16      0x200002f8d198 vtkDemandDrivenPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 120
+15      0x200002f99424 vtkExecutive::CallAlgorithm(vtkInformation*, int, vtkInformationVector**, vtkInformationVector*) + 132
+14      0x200002fc8678 vtkPolyDataAlgorithm::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 472
+13      0x200010335440 vtkmFeatureAnalysis::RequestData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 2864
+12      0x20001032b670 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0xbb670) [0x20001032b670]
+11      0x20001032932c /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0xb932c) [0x20001032932c]
+10      0x2000103137b8 /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0xa37b8) [0x2000103137b8]
+9       0x2000102c41ac /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0x541ac) [0x2000102c41ac]
+8       0x2000102c3f0c /ccs/home/dutta/alpine_proj_space/MFIX_Exa_Catalyst_VTKm_092021/pv_build_5.9.1/install/lib/libvtkAcceleratorsVTKmFiltersMPI-pv5.9.so.1(+0x53f0c) [0x2000102c3f0c]
+7       0x200013630f44 vtkm::cont::detail::HandleTryExecuteException(vtkm::cont::DeviceAdapterId, vtkm::cont::RuntimeDeviceTracker&, std::string const&) + 1940
+6       0x200001fb7894 __cxa_rethrow + 132
+5       0x200001fb7340 std::terminate() + 32
+4       0x200001fb7284 /sw/summit/gcc/7.5.0-2/lib64/libstdc++.so.6(+0xb7284) [0x200001fb7284]
+3       0x200001fbc574 __gnu_cxx::__verbose_terminate_handler() + 452
+2       0x2000003b3a2c abort + 356
+1       0x2000003d3618 gsignal + 216
+0       0x2000000504d8 __kernel_sigtramp_rt64 + 0
+( 370.256s) [pvbatch.0       ]                       :0     FATL| Signal: SIGABRT
+ERROR:  One or more process (first noticed rank 0) terminated with signal 6 (core dumped)
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 1425948: <fcc> in cluster <summit> Exited
+
+Job <fcc> was submitted from host <login1> by user <dutta> in cluster <summit> at Wed Sep  8 16:19:58 2021
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <dutta> in cluster <summit> at Wed Sep  8 16:21:03 2021
+                            <42*a01n02>
+                            <42*a01n03>
+                            <42*a01n04>
+                            <42*a01n05>
+                            <42*a01n06>
+                            <42*a01n07>
+                            <42*a01n08>
+                            <42*a01n09>
+                            <42*a01n10>
+                            <42*a01n11>
+                            <42*a01n12>
+                            <42*a01n13>
+                            <42*a01n14>
+                            <42*a01n15>
+                            <42*a01n16>
+                            <42*a01n17>
+</ccs/home/dutta> was used as the home directory.
+</ccs/home/dutta/scratch/MFIX_Catalyst/fcc> was used as the working directory.
+Started at Wed Sep  8 16:21:03 2021
+Terminated at Wed Sep  8 16:27:42 2021
+Results reported at Wed Sep  8 16:27:42 2021
+
+The output (if any) is above this job summary.
+

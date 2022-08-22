@@ -1,0 +1,5 @@
+results/
+.DS_Store
+slic
+out/
+SLIC_3D/build

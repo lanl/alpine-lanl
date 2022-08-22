@@ -1,0 +1,7 @@
+__pycache__
+**/.DS_Store
+.ipynb_checkpoints
+two_vtk_window_example/__pycache__
+mfix_tracking_visualization_highres/__pycache__
+mfix_tracking_visualization/__pycache__
+

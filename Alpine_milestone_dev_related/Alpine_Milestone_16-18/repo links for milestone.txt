@@ -1,0 +1,12 @@
+VTK repo details:
+
+For OpenMP enabled filter code used for performance evaluation:
+Dan Lipsa's VTK
+Branch: feature-analysis
+Commit: 3ee2e20a34f33130c1f608a5604e8657a9c388a5
+
+
+For VTK filter test case:
+Dan Lipsa's VTK
+Branch: feature-analysis
+Commit: ad1f5c9e7ec61b53c51a118a6ec80dafab91c792

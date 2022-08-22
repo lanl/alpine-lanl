@@ -1,0 +1,703 @@
+MPI initialized with 96 MPI processes
+MPI initialized with thread support level 0
+AMReX (20.07.0) initialized
+MFiX git hash: 97efb0bfbfd2-dirty
+Number of levels: 1
+Scalar diffusion coefficients 
+Tracer0:0
+Auto-generating level-set parameters:
+eb_refinement = 1
+levelset_pad  = 4
+eb_pad        = 4
+mfix.geometry_filename: 
+ No EB geometry declared in inputs =>  Will read walls from mfix.dat only.
+ 
+Now making the ebfactories ...
+Using max_grid_size only did not make enough grids for the number of processors!
+In MakeBaseGrids: BA HAS 128 GRIDS 
+SETTING NEW GRIDS IN MAKE NEW LEVEL (BoxArray maxbox(128)
+       m_ref->m_hash_sig(0)
+       ((0,0,0) (15,31,31) (0,0,0)) ((384,0,0) (399,31,31) (0,0,0)) ((256,0,0) (271,31,31) (0,0,0)) ((128,0,0) (143,31,31) (0,0,0)) ((0,0,64) (15,31,95) (0,0,0)) ((384,0,64) (399,31,95) (0,0,0)) ((256,0,64) (271,31,95) (0,0,0)) ((128,0,64) (143,31,95) (0,0,0)) ((64,0,0) (79,31,31) (0,0,0)) ((448,0,0) (463,31,31) (0,0,0)) ((320,0,0) (335,31,31) (0,0,0)) ((192,0,0) (207,31,31) (0,0,0)) ((64,0,64) (79,31,95) (0,0,0)) ((448,0,64) (463,31,95) (0,0,0)) ((320,0,64) (335,31,95) (0,0,0)) ((192,0,64) (207,31,95) (0,0,0)) ((32,0,0) (47,31,31) (0,0,0)) ((416,0,0) (431,31,31) (0,0,0)) ((288,0,0) (303,31,31) (0,0,0)) ((160,0,0) (175,31,31) (0,0,0)) ((32,0,64) (47,31,95) (0,0,0)) ((416,0,64) (431,31,95) (0,0,0)) ((288,0,64) (303,31,95) (0,0,0)) ((160,0,64) (175,31,95) (0,0,0)) ((96,0,0) (111,31,31) (0,0,0)) ((480,0,0) (495,31,31) (0,0,0)) ((352,0,0) (367,31,31) (0,0,0)) ((224,0,0) (239,31,31) (0,0,0)) ((96,0,64) (111,31,95) (0,0,0)) ((480,0,64) (495,31,95) (0,0,0)) ((352,0,64) (367,31,95) (0,0,0)) ((224,0,64) (239,31,95) (0,0,0)) ((0,0,32) (15,31,63) (0,0,0)) ((384,0,32) (399,31,63) (0,0,0)) ((256,0,32) (271,31,63) (0,0,0)) ((128,0,32) (143,31,63) (0,0,0)) ((0,0,96) (15,31,127) (0,0,0)) ((384,0,96) (399,31,127) (0,0,0)) ((256,0,96) (271,31,127) (0,0,0)) ((128,0,96) (143,31,127) (0,0,0)) ((64,0,32) (79,31,63) (0,0,0)) ((448,0,32) (463,31,63) (0,0,0)) ((320,0,32) (335,31,63) (0,0,0)) ((192,0,32) (207,31,63) (0,0,0)) ((64,0,96) (79,31,127) (0,0,0)) ((448,0,96) (463,31,127) (0,0,0)) ((320,0,96) (335,31,127) (0,0,0)) ((192,0,96) (207,31,127) (0,0,0)) ((32,0,32) (47,31,63) (0,0,0)) ((416,0,32) (431,31,63) (0,0,0)) ((288,0,32) (303,31,63) (0,0,0)) ((160,0,32) (175,31,63) (0,0,0)) ((32,0,96) (47,31,127) (0,0,0)) ((416,0,96) (431,31,127) (0,0,0)) ((288,0,96) (303,31,127) (0,0,0)) ((160,0,96) (175,31,127) (0,0,0)) ((96,0,32) (111,31,63) (0,0,0)) ((480,0,32) (495,31,63) (0,0,0)) ((352,0,32) (367,31,63) (0,0,0)) ((224,0,32) (239,31,63) (0,0,0)) ((96,0,96) (111,31,127) (0,0,0)) ((480,0,96) (495,31,127) (0,0,0)) ((352,0,96) (367,31,127) (0,0,0)) ((224,0,96) (239,31,127) (0,0,0)) ((16,0,0) (31,31,31) (0,0,0)) ((400,0,0) (415,31,31) (0,0,0)) ((272,0,0) (287,31,31) (0,0,0)) ((144,0,0) (159,31,31) (0,0,0)) ((16,0,64) (31,31,95) (0,0,0)) ((400,0,64) (415,31,95) (0,0,0)) ((272,0,64) (287,31,95) (0,0,0)) ((144,0,64) (159,31,95) (0,0,0)) ((80,0,0) (95,31,31) (0,0,0)) ((464,0,0) (479,31,31) (0,0,0)) ((336,0,0) (351,31,31) (0,0,0)) ((208,0,0) (223,31,31) (0,0,0)) ((80,0,64) (95,31,95) (0,0,0)) ((464,0,64) (479,31,95) (0,0,0)) ((336,0,64) (351,31,95) (0,0,0)) ((208,0,64) (223,31,95) (0,0,0)) ((48,0,0) (63,31,31) (0,0,0)) ((432,0,0) (447,31,31) (0,0,0)) ((304,0,0) (319,31,31) (0,0,0)) ((176,0,0) (191,31,31) (0,0,0)) ((48,0,64) (63,31,95) (0,0,0)) ((432,0,64) (447,31,95) (0,0,0)) ((304,0,64) (319,31,95) (0,0,0)) ((176,0,64) (191,31,95) (0,0,0)) ((112,0,0) (127,31,31) (0,0,0)) ((496,0,0) (511,31,31) (0,0,0)) ((368,0,0) (383,31,31) (0,0,0)) ((240,0,0) (255,31,31) (0,0,0)) ((112,0,64) (127,31,95) (0,0,0)) ((496,0,64) (511,31,95) (0,0,0)) ((368,0,64) (383,31,95) (0,0,0)) ((240,0,64) (255,31,95) (0,0,0)) ((16,0,32) (31,31,63) (0,0,0)) ((400,0,32) (415,31,63) (0,0,0)) ((272,0,32) (287,31,63) (0,0,0)) ((144,0,32) (159,31,63) (0,0,0)) ((16,0,96) (31,31,127) (0,0,0)) ((400,0,96) (415,31,127) (0,0,0)) ((272,0,96) (287,31,127) (0,0,0)) ((144,0,96) (159,31,127) (0,0,0)) ((80,0,32) (95,31,63) (0,0,0)) ((464,0,32) (479,31,63) (0,0,0)) ((336,0,32) (351,31,63) (0,0,0)) ((208,0,32) (223,31,63) (0,0,0)) ((80,0,96) (95,31,127) (0,0,0)) ((464,0,96) (479,31,127) (0,0,0)) ((336,0,96) (351,31,127) (0,0,0)) ((208,0,96) (223,31,127) (0,0,0)) ((48,0,32) (63,31,63) (0,0,0)) ((432,0,32) (447,31,63) (0,0,0)) ((304,0,32) (319,31,63) (0,0,0)) ((176,0,32) (191,31,63) (0,0,0)) ((48,0,96) (63,31,127) (0,0,0)) ((432,0,96) (447,31,127) (0,0,0)) ((304,0,96) (319,31,127) (0,0,0)) ((176,0,96) (191,31,127) (0,0,0)) ((112,0,32) (127,31,63) (0,0,0)) ((496,0,32) (511,31,63) (0,0,0)) ((368,0,32) (383,31,63) (0,0,0)) ((240,0,32) (255,31,63) (0,0,0)) ((112,0,96) (127,31,127) (0,0,0)) ((496,0,96) (511,31,127) (0,0,0)) ((368,0,96) (383,31,127) (0,0,0)) ((240,0,96) (255,31,127) (0,0,0)) )
+
+SETTING NEW DMAP IN MAKE NEW LEVEL (DistributionMapping
+m_pmap[0] = 50
+m_pmap[1] = 8
+m_pmap[2] = 82
+m_pmap[3] = 66
+m_pmap[4] = 58
+m_pmap[5] = 22
+m_pmap[6] = 90
+m_pmap[7] = 74
+m_pmap[8] = 54
+m_pmap[9] = 18
+m_pmap[10] = 86
+m_pmap[11] = 70
+m_pmap[12] = 62
+m_pmap[13] = 0
+m_pmap[14] = 94
+m_pmap[15] = 78
+m_pmap[16] = 31
+m_pmap[17] = 42
+m_pmap[18] = 34
+m_pmap[19] = 6
+m_pmap[20] = 26
+m_pmap[21] = 46
+m_pmap[22] = 38
+m_pmap[23] = 14
+m_pmap[24] = 30
+m_pmap[25] = 44
+m_pmap[26] = 36
+m_pmap[27] = 12
+m_pmap[28] = 4
+m_pmap[29] = 48
+m_pmap[30] = 40
+m_pmap[31] = 27
+m_pmap[32] = 52
+m_pmap[33] = 16
+m_pmap[34] = 84
+m_pmap[35] = 68
+m_pmap[36] = 60
+m_pmap[37] = 24
+m_pmap[38] = 92
+m_pmap[39] = 76
+m_pmap[40] = 56
+m_pmap[41] = 20
+m_pmap[42] = 88
+m_pmap[43] = 72
+m_pmap[44] = 64
+m_pmap[45] = 2
+m_pmap[46] = 10
+m_pmap[47] = 80
+m_pmap[48] = 29
+m_pmap[49] = 43
+m_pmap[50] = 35
+m_pmap[51] = 7
+m_pmap[52] = 33
+m_pmap[53] = 47
+m_pmap[54] = 39
+m_pmap[55] = 15
+m_pmap[56] = 32
+m_pmap[57] = 45
+m_pmap[58] = 37
+m_pmap[59] = 13
+m_pmap[60] = 5
+m_pmap[61] = 49
+m_pmap[62] = 41
+m_pmap[63] = 28
+m_pmap[64] = 51
+m_pmap[65] = 9
+m_pmap[66] = 83
+m_pmap[67] = 67
+m_pmap[68] = 59
+m_pmap[69] = 23
+m_pmap[70] = 91
+m_pmap[71] = 75
+m_pmap[72] = 55
+m_pmap[73] = 19
+m_pmap[74] = 87
+m_pmap[75] = 71
+m_pmap[76] = 63
+m_pmap[77] = 1
+m_pmap[78] = 95
+m_pmap[79] = 79
+m_pmap[80] = 31
+m_pmap[81] = 42
+m_pmap[82] = 34
+m_pmap[83] = 6
+m_pmap[84] = 26
+m_pmap[85] = 46
+m_pmap[86] = 38
+m_pmap[87] = 14
+m_pmap[88] = 30
+m_pmap[89] = 44
+m_pmap[90] = 36
+m_pmap[91] = 12
+m_pmap[92] = 4
+m_pmap[93] = 48
+m_pmap[94] = 40
+m_pmap[95] = 27
+m_pmap[96] = 53
+m_pmap[97] = 17
+m_pmap[98] = 85
+m_pmap[99] = 69
+m_pmap[100] = 61
+m_pmap[101] = 25
+m_pmap[102] = 93
+m_pmap[103] = 77
+m_pmap[104] = 57
+m_pmap[105] = 21
+m_pmap[106] = 89
+m_pmap[107] = 73
+m_pmap[108] = 65
+m_pmap[109] = 3
+m_pmap[110] = 11
+m_pmap[111] = 81
+m_pmap[112] = 29
+m_pmap[113] = 43
+m_pmap[114] = 35
+m_pmap[115] = 7
+m_pmap[116] = 33
+m_pmap[117] = 47
+m_pmap[118] = 39
+m_pmap[119] = 15
+m_pmap[120] = 32
+m_pmap[121] = 45
+m_pmap[122] = 37
+m_pmap[123] = 13
+m_pmap[124] = 5
+m_pmap[125] = 49
+m_pmap[126] = 41
+m_pmap[127] = 28
+)
+
+  Restarting from checkpoint /ccs/home/dutta/alpine_proj_space/fcc/fcc_chk25000
+  Finished reading particle data
+mfix.geometry_filename: 
+ No EB geometry declared in inputs =>  Will read walls from mfix.dat only.
+ 
+Now making the ebfactories ...
+  Finished reading header
+  Loading ep_g
+  Loading p_g
+  Loading ro_g
+  Loading mu_g
+  Skipping level_sets
+  Finished reading fluid data
+     + Loaded level-set parameters:
+       ref = 2    pad = 4    eb_ref = 1 eb_pad = 4
+  Done with mfix::Restart 
+Regridding at step 25000
+Load balancing using KnapSack
+Updating ebfactory from existing
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Updating particle ebfactory 2
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Setting original sum_vol to 442174.374
+Time spent in init      6.421473264
+Catalyst Begin initialize...
+Catalyst here 2
+Catalyst here 3
+Catalyst initialize complete (6.83549494 sec)
+Regridding at step 25000
+Load balancing using KnapSack
+Updating ebfactory from existing
+Updating particle ebfactory 2
+Regridding level-set on lev = 0
+Also regridding refined level-set
+Updating particle ebfactory 2
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25001: from old_time 1.247677738 to new time 1.247727738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.324074942  0.2383394033  0.9804145707  479.8436267
+   max(abs(gpx/gpy/gpz))  = 28336.7922  6117.296087  23844.40636
+Min and Max of ep_g 0.3662069939 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.395295791  0.2559183314  0.9928570812  479.8729733
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.324040076  0.2383616245  0.9802977214  479.8729733
+   max(abs(gpx/gpy/gpz))  = 28302.54042  6141.114564  23841.62758
+Min and Max of ep_g 0.3662069939 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.395166176  0.2559232908  0.9928328292  479.903516
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.603638114
+   Time per 54 particle steps 5.120313414
+   Coupling time per step   0.535815476
+   Time per step        13.10849453
+Catalyst Begin CoProcess...
+2021-12-08 14:55:49.438 (  47.553s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.363s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.755s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.086s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.943s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.553s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.363s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.755s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.086s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.943s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.363s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.755s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.086s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.553s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.943s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.755s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.086s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.553s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.943s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.252s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.755s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.087s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.553s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.363s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.755s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.943s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.086s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.553s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.400s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.252s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.944s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.363s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  49.717s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.878s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.549s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  49.717s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.400s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.252s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  49.717s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.878s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.363s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  49.717s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.400s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.550s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  49.717s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.550s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  49.717s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.878s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  42.546s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.550s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.252s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.475s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.550s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.878s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.252s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  42.546s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.550s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.252s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.878s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.439 (  49.376s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.475s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  42.546s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.439 (  49.377s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.400s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.439 (  49.377s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.878s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.439 (  49.377s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  42.546s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.439 (  49.377s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.391s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.439 (  49.377s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.400s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  42.546s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.475s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.391s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  46.400s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.861s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  42.546s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.083s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.391s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.391s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.083s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.391s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.083s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  48.391s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.475s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.083s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.861s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.083s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.475s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  43.084s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.861s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  47.475s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.861s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.861s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+2021-12-08 14:55:49.438 (  45.861s) [        209AA3C0]       CudaAllocator.cu:307   INFO| CudaAllocator hardware supports managed memory
+Max Density time: 4.69291544 secs
+Final Slic itereration num: 50 and final epsilon: 13.22710726
+Slic time: 1.264245
+Similarity field generation time: 0.00695
+Total time: 5.96411044
+Catalyst CoProcess complete (17.44376589 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25002: from old_time 1.247727738 to new time 1.247777738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.325595967  0.2382778455  0.9807390369  479.903516
+   max(abs(gpx/gpy/gpz))  = 28273.45762  6156.05535  23850.43751
+Min and Max of ep_g 0.366203127 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.397214734  0.2557432828  0.9933194171  479.9273082
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.325560756  0.2383113293  0.9806187612  479.9273082
+   max(abs(gpx/gpy/gpz))  = 28241.04857  6174.824398  23846.24886
+Min and Max of ep_g 0.366203127 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.397092956  0.2557583989  0.9932946658  479.9667702
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.606896495
+   Time per 54 particle steps 5.11124382
+   Coupling time per step   0.533932636
+   Time per step        6.248214614
+Catalyst Begin CoProcess...
+Max Density time: 0.228205 secs
+Final Slic itereration num: 50 and final epsilon: 13.19635491
+Slic time: 0.994424
+Similarity field generation time: 0.006614
+Total time: 1.229243
+Catalyst CoProcess complete (2.26607282 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25003: from old_time 1.247777738 to new time 1.247827738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.327076865  0.2381476836  0.9809531923  479.9667702
+   max(abs(gpx/gpy/gpz))  = 28215.84402  6185.547592  23854.13834
+Min and Max of ep_g 0.3661994678 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.399053686  0.2554871244  0.993711182  479.9539685
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.327045326  0.2381905128  0.9808242897  479.9539685
+   max(abs(gpx/gpy/gpz))  = 28200.37756  6195.284374  23800.07853
+Min and Max of ep_g 0.3661994678 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.398931292  0.2555081878  0.9936713459  479.9750232
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.613829898
+   Time per 54 particle steps 5.121564814
+   Coupling time per step   0.533352914
+   Time per step        6.264649265
+Catalyst Begin CoProcess...
+Max Density time: 0.355315 secs
+Final Slic itereration num: 50 and final epsilon: 13.21876854
+Slic time: 0.972472
+Similarity field generation time: 0.006791
+Total time: 1.334578
+Catalyst CoProcess complete (2.34898246 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25004: from old_time 1.247827738 to new time 1.247877738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.328780377  0.2379511486  0.9810733333  479.9750232
+   max(abs(gpx/gpy/gpz))  = 28184.636  6200.013209  23774.61497
+Min and Max of ep_g 0.366195777 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.40101179  0.2551675636  0.9939990245  480.0071565
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.328733549  0.2380018432  0.9809370184  480.0071565
+   max(abs(gpx/gpy/gpz))  = 28179.73267  6212.186951  23703.01827
+Min and Max of ep_g 0.366195777 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.400887226  0.2551993017  0.9939513914  480.0372816
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.615368549
+   Time per 54 particle steps 5.119420866
+   Coupling time per step   0.533954514
+   Time per step        6.264854718
+Catalyst Begin CoProcess...
+Max Density time: 0.252975 secs
+Final Slic itereration num: 50 and final epsilon: 13.22589195
+Slic time: 0.975575
+Similarity field generation time: 0.00667
+Total time: 1.23522
+Catalyst CoProcess complete (2.357263714 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25005: from old_time 1.247877738 to new time 1.247927738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.331082888  0.2377112523  0.981091089  480.0372816
+   max(abs(gpx/gpy/gpz))  = 28173.69284  6217.78826  23665.69785
+Min and Max of ep_g 0.3661938052 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.403275677  0.2547859635  0.9941993209  480.0528894
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.331004058  0.2377698001  0.9809499081  480.0528894
+   max(abs(gpx/gpy/gpz))  = 28159.78948  6229.148906  23574.05681
+Min and Max of ep_g 0.3661938052 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.403108983  0.2548253215  0.9941529172  480.1162115
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.613234619
+   Time per 54 particle steps 5.11545484
+   Coupling time per step   0.533361761
+   Time per step        6.258260847
+  Writing plotfile high_freq_plt/fcc25005 at time 1.247927738
+Catalyst Begin CoProcess...
+Max Density time: 0.098931 secs
+Final Slic itereration num: 50 and final epsilon: 13.22396863
+Slic time: 0.974506
+Similarity field generation time: 0.006592
+Total time: 1.080029
+Catalyst CoProcess complete (2.289350959 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25006: from old_time 1.247927738 to new time 1.247977738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.333566128  0.2374351122  0.9810294839  480.1162115
+   max(abs(gpx/gpy/gpz))  = 28148.86483  6233.895621  23520.43543
+Min and Max of ep_g 0.3661922998 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.40574283  0.2543758325  0.9943115617  480.0532003
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.333441604  0.2374967298  0.9808864525  480.0532003
+   max(abs(gpx/gpy/gpz))  = 28105.26506  6246.130756  23403.95748
+Min and Max of ep_g 0.3661922998 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.405536708  0.25441517  0.9942649381  480.0701381
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.616535707
+   Time per 54 particle steps 5.123698008
+   Coupling time per step   0.532898209
+   Time per step        6.269183208
+Catalyst Begin CoProcess...
+Max Density time: 0.232182 secs
+Final Slic itereration num: 50 and final epsilon: 13.20205695
+Slic time: 0.852469
+Similarity field generation time: 0.005438
+Total time: 1.090089
+Catalyst CoProcess complete (2.136327496 sec)
+
+ ============   NEW TIME STEP   ============ 
+
+   Step 25007: from old_time 1.247977738 to new time 1.248027738 with dt = 5e-05
+
+Before projection:
+   max(abs(u/v/w/p))  = 1.339788749  0.2371611387  0.9808832414  480.0701381
+   max(abs(gpx/gpy/gpz))  = 28072.03003  6251.411911  23333.09219
+Min and Max of ep_g 0.3661919379 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.408281748  0.2539689233  0.994303017  480.1376374
+
+Recalculating drag ...
+Before projection:
+   max(abs(u/v/w/p))  = 1.339285107  0.2372217551  0.9807341395  480.1376374
+   max(abs(gpx/gpy/gpz))  = 28036.2709  6260.063531  23232.83794
+Min and Max of ep_g 0.3661919379 1
+After  projection:
+   max(abs(u/v/w/p))  = 1.408054087  0.2540070743  0.994250501  480.1654234
+Evolving particles on level: 0 ... with fluid dt 5e-05
+done. 
+   Time per fluid step      0.618249401
+   Time per 54 particle steps 5.119112297
+   Coupling time per step   0.531775306
+   Time per step        6.265168161
+Catalyst Begin CoProcess...
+Max Density time: 0.133235 secs
+2021-12-08 14:56:41.857 (  99.972s) [        209AA3C0]         TryExecute.cxx:55     ERR| TryExecute encountered an error: ErrorBadValue (Input array to worklet invocation the wrong size.)
+2021-12-08 14:56:41.857 (  99.972s) [        209AA3C0]         TryExecute.cxx:55     ERR| Failing functor: vtkm::worklet::internal::detail::DispatcherBaseTryExecuteFunctor
+2021-12-08 14:56:41.857 (  99.972s) [        209AA3C0]         TryExecute.cxx:55     ERR| Failing device: Cuda
+terminate called after throwing an instance of 'vtkm::cont::ErrorBadValue'
+  what():  Input array to worklet invocation the wrong size.
+73      0x2000003b4264 __libc_start_main + 180
+72      0x2000003b4078 /lib64/power9/libc.so.6(+0x24078) [0x2000003b4078]
+71          0x10013994 /ccs/home/dutta/alpine_proj_space/fcc/mfix_exec_link() [0x10013994]
+70          0x1002d2a8 /ccs/home/dutta/alpine_proj_space/fcc/mfix_exec_link() [0x1002d2a8]
+69      0x2000006079b0 vtkCPProcessor::CoProcess(vtkCPDataDescription*) + 3056
+68      0x2000005b2924 vtkCPPythonScriptPipeline::CoProcess(vtkCPDataDescription*) + 724
+67      0x20000064cabc vtkPythonInterpreter::RunSimpleString(char const*) + 556
+66      0x20000090983c PyRun_SimpleStringFlags + 92
+65      0x2000009096e8 PyRun_StringFlags + 408
+64      0x2000008aa63c PyEval_EvalCode + 60
+63      0x2000008aa5c4 PyEval_EvalCodeEx + 100
+62      0x2000008aa44c _PyEval_EvalCodeWithName + 3964
+61      0x2000008a9464 PyEval_EvalFrameEx + 52
+60      0x200000709360 _PyEval_EvalFrameDefault + 32928
+59      0x2000006ffcc4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libpython3.8.so.1.0(+0x7fcc4) [0x2000006ffcc4]
+58      0x2000008a9464 PyEval_EvalFrameEx + 52
+57      0x2000007058fc _PyEval_EvalFrameDefault + 17980
+56      0x2000006ffcc4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libpython3.8.so.1.0(+0x7fcc4) [0x2000006ffcc4]
+55      0x2000008a9464 PyEval_EvalFrameEx + 52
+54      0x200000709360 _PyEval_EvalFrameDefault + 32928
+53      0x20000074f5f4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libpython3.8.so.1.0(+0xcf5f4) [0x20000074f5f4]
+52      0x200000748da8 _PyFunction_Vectorcall + 184
+51      0x2000008aa44c _PyEval_EvalCodeWithName + 3964
+50      0x2000008a9464 PyEval_EvalFrameEx + 52
+49      0x20000070b0d0 _PyEval_EvalFrameDefault + 40464
+48      0x2000007491c0 _PyObject_MakeTpCall + 208
+47      0x20000074c93c PyCFunction_Call + 220
+46      0x200039e0b8c4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/superbuild/paraview/build/lib/python3.8/site-packages/paraview/modules/vtkRemotingServerManager.so(+0x30b8c4) [0x200039e0b8c4]
+45      0x200002572dbc vtkSMWriterProxy::UpdatePipeline(double) + 236
+44      0x20000249377c vtkSMProxy::ExecuteStream(vtkClientServerStream const&, bool, unsigned int) + 268
+43      0x2000022f1934 vtkPVSessionBase::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 100
+42      0x2000022f43d4 vtkPVSessionCore::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 116
+41      0x2000022f4648 vtkPVSessionCore::ExecuteStreamInternal(vtkClientServerStream const&, bool) + 328
+40      0x200002c94954 vtkClientServerInterpreter::ProcessStream(vtkClientServerStream const&) + 52
+39      0x200002c945a0 vtkClientServerInterpreter::ProcessOneMessage(vtkClientServerStream const&, int) + 1488
+38      0x200002c93cb8 vtkClientServerInterpreter::ProcessCommandInvoke(vtkClientServerStream const&, int) + 1480
+37      0x200002c934ac vtkClientServerInterpreter::CallCommandFunction(char const*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&) + 524
+36      0x20000438c410 vtkFileSeriesWriterCommand(vtkClientServerInterpreter*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&, void*) + 8928
+35      0x200017f0fc04 vtkFileSeriesWriter::Write() + 148
+34      0x200002f42944 vtkAlgorithm::Update() + 116
+33      0x200002fdaeec vtkStreamingDemandDrivenPipeline::Update(int) + 44
+32      0x200002fde5c4 vtkStreamingDemandDrivenPipeline::Update(int, vtkInformationVector*) + 484
+31      0x200002f5efe4 vtkDemandDrivenPipeline::UpdateData(int) + 212
+30      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+29      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+28      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+27      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+26      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+25      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+24      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+23      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+22      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+21      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+20      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+19      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+18      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+17      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+16      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+15      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+14      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+13      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+12      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+11      0x200002f60a6c vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1244
+10      0x200002f53214 vtkCompositeDataPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 212
+9       0x200002f5c718 vtkDemandDrivenPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 120
+8       0x200002f689a4 vtkExecutive::CallAlgorithm(vtkInformation*, int, vtkInformationVector**, vtkInformationVector*) + 132
+7       0x200002f5b968 vtkDataSetAlgorithm::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 344
+6       0x20000b6f7adc vtkmFeatureAnalysis::RequestData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 2652
+5       0x20000b6eddb0 vtkm::filter::Filter<vtkm::filter::SLIC>::Execute(vtkm::cont::DataSet const&) + 576
+4       0x20000b6eb87c /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1b1b87c) [0x20000b6eb87c]
+3       0x20000b6d6c78 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1b06c78) [0x20000b6d6c78]
+2       0x20000b66eebc /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1a9eebc) [0x20000b66eebc]
+1       0x20000b66e664 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1a9e664) [0x20000b66e664]
+0       0x20000b66da6c /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1a9da6c) [0x20000b66da6c]
+
+Loguru caught a signal: SIGABRT
+Stack trace:
+80      0x2000003b4264 __libc_start_main + 180
+79      0x2000003b4078 /lib64/power9/libc.so.6(+0x24078) [0x2000003b4078]
+78          0x10013994 /ccs/home/dutta/alpine_proj_space/fcc/mfix_exec_link() [0x10013994]
+77          0x1002d2a8 /ccs/home/dutta/alpine_proj_space/fcc/mfix_exec_link() [0x1002d2a8]
+76      0x2000006079b0 vtkCPProcessor::CoProcess(vtkCPDataDescription*) + 3056
+75      0x2000005b2924 vtkCPPythonScriptPipeline::CoProcess(vtkCPDataDescription*) + 724
+74      0x20000064cabc vtkPythonInterpreter::RunSimpleString(char const*) + 556
+73      0x20000090983c PyRun_SimpleStringFlags + 92
+72      0x2000009096e8 PyRun_StringFlags + 408
+71      0x2000008aa63c PyEval_EvalCode + 60
+70      0x2000008aa5c4 PyEval_EvalCodeEx + 100
+69      0x2000008aa44c _PyEval_EvalCodeWithName + 3964
+68      0x2000008a9464 PyEval_EvalFrameEx + 52
+67      0x200000709360 _PyEval_EvalFrameDefault + 32928
+66      0x2000006ffcc4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libpython3.8.so.1.0(+0x7fcc4) [0x2000006ffcc4]
+65      0x2000008a9464 PyEval_EvalFrameEx + 52
+64      0x2000007058fc _PyEval_EvalFrameDefault + 17980
+63      0x2000006ffcc4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libpython3.8.so.1.0(+0x7fcc4) [0x2000006ffcc4]
+62      0x2000008a9464 PyEval_EvalFrameEx + 52
+61      0x200000709360 _PyEval_EvalFrameDefault + 32928
+60      0x20000074f5f4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libpython3.8.so.1.0(+0xcf5f4) [0x20000074f5f4]
+59      0x200000748da8 _PyFunction_Vectorcall + 184
+58      0x2000008aa44c _PyEval_EvalCodeWithName + 3964
+57      0x2000008a9464 PyEval_EvalFrameEx + 52
+56      0x20000070b0d0 _PyEval_EvalFrameDefault + 40464
+55      0x2000007491c0 _PyObject_MakeTpCall + 208
+54      0x20000074c93c PyCFunction_Call + 220
+53      0x200039e0b8c4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/superbuild/paraview/build/lib/python3.8/site-packages/paraview/modules/vtkRemotingServerManager.so(+0x30b8c4) [0x200039e0b8c4]
+52      0x200002572dbc vtkSMWriterProxy::UpdatePipeline(double) + 236
+51      0x20000249377c vtkSMProxy::ExecuteStream(vtkClientServerStream const&, bool, unsigned int) + 268
+50      0x2000022f1934 vtkPVSessionBase::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 100
+49      0x2000022f43d4 vtkPVSessionCore::ExecuteStream(unsigned int, vtkClientServerStream const&, bool) + 116
+48      0x2000022f4648 vtkPVSessionCore::ExecuteStreamInternal(vtkClientServerStream const&, bool) + 328
+47      0x200002c94954 vtkClientServerInterpreter::ProcessStream(vtkClientServerStream const&) + 52
+46      0x200002c945a0 vtkClientServerInterpreter::ProcessOneMessage(vtkClientServerStream const&, int) + 1488
+45      0x200002c93cb8 vtkClientServerInterpreter::ProcessCommandInvoke(vtkClientServerStream const&, int) + 1480
+44      0x200002c934ac vtkClientServerInterpreter::CallCommandFunction(char const*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&) + 524
+43      0x20000438c410 vtkFileSeriesWriterCommand(vtkClientServerInterpreter*, vtkObjectBase*, char const*, vtkClientServerStream const&, vtkClientServerStream&, void*) + 8928
+42      0x200017f0fc04 vtkFileSeriesWriter::Write() + 148
+41      0x200002f42944 vtkAlgorithm::Update() + 116
+40      0x200002fdaeec vtkStreamingDemandDrivenPipeline::Update(int) + 44
+39      0x200002fde5c4 vtkStreamingDemandDrivenPipeline::Update(int, vtkInformationVector*) + 484
+38      0x200002f5efe4 vtkDemandDrivenPipeline::UpdateData(int) + 212
+37      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+36      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+35      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+34      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+33      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+32      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+31      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+30      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+29      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+28      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+27      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+26      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+25      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+24      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+23      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+22      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+21      0x200002f609e0 vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1104
+20      0x200002f50ca0 vtkCompositeDataPipeline::ForwardUpstream(vtkInformation*) + 496
+19      0x200002fdc4b8 vtkStreamingDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 632
+18      0x200002f60a6c vtkDemandDrivenPipeline::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 1244
+17      0x200002f53214 vtkCompositeDataPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 212
+16      0x200002f5c718 vtkDemandDrivenPipeline::ExecuteData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 120
+15      0x200002f689a4 vtkExecutive::CallAlgorithm(vtkInformation*, int, vtkInformationVector**, vtkInformationVector*) + 132
+14      0x200002f5b968 vtkDataSetAlgorithm::ProcessRequest(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 344
+13      0x20000b6f7adc vtkmFeatureAnalysis::RequestData(vtkInformation*, vtkInformationVector**, vtkInformationVector*) + 2652
+12      0x20000b6eddb0 vtkm::filter::Filter<vtkm::filter::SLIC>::Execute(vtkm::cont::DataSet const&) + 576
+11      0x20000b6eb87c /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1b1b87c) [0x20000b6eb87c]
+10      0x20000b6d6c78 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1b06c78) [0x20000b6d6c78]
+9       0x20000b66eebc /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1a9eebc) [0x20000b66eebc]
+8       0x20000b66ecc4 /ccs/home/dutta/MFIX_Catalyst_VTKm_GPU/build-egl/install/lib/libvtkRemotingViews-pv5.9.so.1(+0x1a9ecc4) [0x20000b66ecc4]
+7       0x20000d99c844 vtkm::cont::detail::HandleTryExecuteException(vtkm::cont::DeviceAdapterId, vtkm::cont::RuntimeDeviceTracker&, std::string const&) + 1940
+6       0x200001f97894 __cxa_rethrow + 132
+5       0x200001f97340 std::terminate() + 32
+4       0x200001f97284 /sw/summit/gcc/7.5.0-2/lib64/libstdc++.so.6(+0xb7284) [0x200001f97284]
+3       0x200001f9c574 __gnu_cxx::__verbose_terminate_handler() + 452
+2       0x2000003b3a2c abort + 356
+1       0x2000003d3618 gsignal + 216
+0       0x2000000504d8 __kernel_sigtramp_rt64 + 0
+( 100.343s) [pvbatch.0       ]                       :0     FATL| Signal: SIGABRT
+ERROR:  One or more process (first noticed rank 0) terminated with signal 6 (core dumped)
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 1678391: <fcc> in cluster <summit> Exited
+
+Job <fcc> was submitted from host <login3> by user <dutta> in cluster <summit> at Wed Dec  8 14:31:37 2021
+Job was executed on host(s) <1*batch3>, in queue <debug>, as user <dutta> in cluster <summit> at Wed Dec  8 14:54:37 2021
+                            <42*g19n16>
+                            <42*g19n17>
+                            <42*g19n18>
+                            <42*g20n01>
+                            <42*g20n02>
+                            <42*g20n03>
+                            <42*g20n04>
+                            <42*g20n05>
+                            <42*g20n06>
+                            <42*g20n07>
+                            <42*g20n08>
+                            <42*h32n02>
+                            <42*h35n16>
+                            <42*h37n10>
+                            <42*h50n06>
+                            <42*h50n07>
+</ccs/home/dutta> was used as the home directory.
+</ccs/home/dutta/alpine_proj_space/fcc> was used as the working directory.
+Started at Wed Dec  8 14:54:37 2021
+Terminated at Wed Dec  8 14:56:47 2021
+Results reported at Wed Dec  8 14:56:47 2021
+
+The output (if any) is above this job summary.
+

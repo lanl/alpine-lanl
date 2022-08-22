@@ -1,0 +1,5 @@
+.DS_Stire
+src/.ipynb_checkpoints
+out
+bubble_all.cdb
+bubble_all.cdb_old
